@@ -1,0 +1,28 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Local runtime state
+.pyrogram/
+telegram_bot_state.json
+*.log
+
+# Private raw data and transient outputs
+telegram_chat.json
+summaries.json
+progress.json
+
+# OS files
+.DS_Store

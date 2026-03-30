@@ -1,0 +1,3752 @@
+{
+  "chat_name": "ACPC Camp 2026 💻",
+  "summary": "The summary covers discussions on coding problems, algorithmic approaches, code optimization, problem-solving strategies, and technical issues related to ACPC Camp 2026. Key points include solutions to specific problems like the pangram problem in C++, frequency arrays, sorting integers, vector distance calculation, handling lucky numbers, optimizing for integer overflow prevention, understanding sorting algorithms and containers, and debugging techniques.",
+  "message_count": 47144,
+  "participant_count": 386,
+  "service_event_count": 15,
+  "date_range": {
+    "start": "2025-03-03T13:25:02",
+    "end": "2026-03-27T18:33:52"
+  },
+  "top_senders": [
+    {
+      "name": "Walied hritani",
+      "messages": 10267
+    },
+    {
+      "name": "Abdulkarim Jamal",
+      "messages": 4445
+    },
+    {
+      "name": "Mohammed Hassan Sawaha",
+      "messages": 2270
+    },
+    {
+      "name": "𝐾𝐴𝑅𝐴𝑀 𝐴𝐿-𝐴𝐿𝐼",
+      "messages": 1599
+    },
+    {
+      "name": "Moudher Ajil",
+      "messages": 1420
+    },
+    {
+      "name": "Mohammed Arrata",
+      "messages": 1326
+    },
+    {
+      "name": "Ahmad Karbouj",
+      "messages": 1053
+    },
+    {
+      "name": "mohammad nahhas",
+      "messages": 1053
+    },
+    {
+      "name": "Bassam Sulaiman",
+      "messages": 1046
+    },
+    {
+      "name": "MOHAMMAD NADDAF",
+      "messages": 1028
+    },
+    {
+      "name": "mohamed",
+      "messages": 927
+    },
+    {
+      "name": "Ahmad Tabbakh",
+      "messages": 897
+    },
+    {
+      "name": "[unknown]",
+      "messages": 839
+    },
+    {
+      "name": "Nour Tahhan",
+      "messages": 792
+    },
+    {
+      "name": "Mostafa Assi",
+      "messages": 714
+    }
+  ],
+  "top_days": [
+    {
+      "day": "2025-05-09",
+      "messages": 714
+    },
+    {
+      "day": "2025-05-01",
+      "messages": 706
+    },
+    {
+      "day": "2025-11-08",
+      "messages": 571
+    },
+    {
+      "day": "2025-04-20",
+      "messages": 558
+    },
+    {
+      "day": "2025-04-27",
+      "messages": 534
+    },
+    {
+      "day": "2025-06-11",
+      "messages": 531
+    },
+    {
+      "day": "2025-05-12",
+      "messages": 530
+    },
+    {
+      "day": "2025-05-07",
+      "messages": 524
+    },
+    {
+      "day": "2025-06-24",
+      "messages": 521
+    },
+    {
+      "day": "2025-05-16",
+      "messages": 491
+    }
+  ],
+  "month_distribution": [
+    {
+      "month": "2025-05",
+      "messages": 9628
+    },
+    {
+      "month": "2025-06",
+      "messages": 5916
+    },
+    {
+      "month": "2025-04",
+      "messages": 5513
+    },
+    {
+      "month": "2025-10",
+      "messages": 4794
+    },
+    {
+      "month": "2025-11",
+      "messages": 4220
+    },
+    {
+      "month": "2025-12",
+      "messages": 3536
+    },
+    {
+      "month": "2025-07",
+      "messages": 3078
+    },
+    {
+      "month": "2026-01",
+      "messages": 2640
+    },
+    {
+      "month": "2025-09",
+      "messages": 2402
+    },
+    {
+      "month": "2026-02",
+      "messages": 1859
+    },
+    {
+      "month": "2025-03",
+      "messages": 1495
+    },
+    {
+      "month": "2026-03",
+      "messages": 1470
+    },
+    {
+      "month": "2025-08",
+      "messages": 593
+    }
+  ],
+  "service_actions": [
+    {
+      "action": "topic_created",
+      "count": 6
+    },
+    {
+      "action": "join_group_by_link",
+      "count": 3
+    },
+    {
+      "action": "topic_edit",
+      "count": 3
+    },
+    {
+      "action": "migrate_from_group",
+      "count": 1
+    },
+    {
+      "action": "invite_members",
+      "count": 1
+    },
+    {
+      "action": "remove_members",
+      "count": 1
+    }
+  ],
+  "major_topics": [
+    "coding problems",
+    "algorithmic approaches",
+    "code optimization",
+    "problem-solving strategies",
+    "technical issues"
+  ],
+  "highlights": [
+    "Participants discussed various solutions to programming problems, including alternative methods for pangram detection and efficient sorting algorithms.",
+    "Walied provided a solution that works without loops or arrays for calculating distances in vectors.",
+    "A solution for finding the sum of shortest paths between every pair of nodes in a graph was discussed.",
+    "The group also covered topics such as divisibility by x, different ways to approach coding problems, preparing for future competitions, using binary logarithm to handle large numbers efficiently, reversing strings, ensuring solutions work correctly, and understanding test cases."
+  ],
+  "action_items": [
+    "Discuss alternative methods for solving specific programming problems.",
+    "Prepare solutions that are efficient and avoid unnecessary loops or arrays.",
+    "Ensure all solutions are tested with various inputs including edge cases.",
+    "Use binary logarithm to handle large numbers efficiently in future competitions."
+  ],
+  "open_questions": [
+    "What are the most effective strategies for debugging complex code?",
+    "How can we optimize our problem-solving techniques to improve efficiency and reduce errors?",
+    "What are some common pitfalls when working with vectors and how can they be avoided?"
+  ],
+  "chunk_count": 302,
+  "chunk_overview": [
+    {
+      "chunk_index": 0,
+      "start_date": "2025-03-03T13:25:02",
+      "end_date": "2025-03-05T23:50:15",
+      "summary": "The conversation covers the basics of a programming competition, including problem-solving skills, team-based competitions, and how to prepare for such events. It also discusses the benefits of participating in these competitions and provides information on upcoming training camps.",
+      "topics": [
+        "programming competition",
+        "problem solving",
+        "team-based competitions",
+        "benefits of participation",
+        "training camps"
+      ]
+    },
+    {
+      "chunk_index": 1,
+      "start_date": "2025-03-05T23:50:17",
+      "end_date": "2025-03-08T18:42:54",
+      "summary": "The conversation covers various topics including coding issues, language selection for code compilation, and AI assistance. It also includes discussions about upcoming camps and training sessions.",
+      "topics": [
+        "Coding Issues",
+        "Language Selection for Compilation",
+        "AI Assistance Requests",
+        "Upcoming Camps and Training Sessions"
+      ]
+    },
+    {
+      "chunk_index": 2,
+      "start_date": "2025-03-08T18:43:06",
+      "end_date": "2025-03-08T22:30:16",
+      "summary": "The conversation focused on solving a programming problem related to permutations and sums, with participants discussing the importance of understanding the problem statement and using appropriate techniques like sorting and conditional statements.",
+      "topics": [
+        "programming problems",
+        "permutations",
+        "sums",
+        "sorting",
+        "conditional statements"
+      ]
+    },
+    {
+      "chunk_index": 3,
+      "start_date": "2025-03-08T22:30:20",
+      "end_date": "2025-03-12T03:51:59",
+      "summary": "The conversation covers various topics such as vector initialization, string to integer conversion, and a problem related to finding the number of times an integer x appears in the product of all pairs (i*j) where i and j are integers from 1 to n. The group also discusses issues with memory limits and runtime errors.",
+      "topics": [
+        "vector initialization",
+        "string to int conversion",
+        "problem related to finding occurrences of a number in products of pairs"
+      ]
+    },
+    {
+      "chunk_index": 4,
+      "start_date": "2025-03-12T03:52:20",
+      "end_date": "2025-03-13T22:54:02",
+      "summary": "The conversation covered various topics including data types, memory usage for different numeric values, code corrections and debugging, and algorithmic problems such as sorting strings. The group also discussed the importance of understanding problem constraints and provided solutions to a specific coding challenge.",
+      "topics": [
+        "Data Types",
+        "Memory Usage",
+        "Code Corrections and Debugging",
+        "Algorithmic Problems"
+      ]
+    },
+    {
+      "chunk_index": 5,
+      "start_date": "2025-03-13T23:24:56",
+      "end_date": "2025-03-18T19:36:50",
+      "summary": "The conversation covers various topics including codeforces, STL, set and map data structures, and the ACPC Camp 2026. Discussions also include troubleshooting account issues and understanding problem-solving strategies.",
+      "topics": [
+        "codeforces",
+        "STL",
+        "set and map data structures",
+        "ACPC Camp 2026",
+        "account troubleshooting"
+      ]
+    },
+    {
+      "chunk_index": 6,
+      "start_date": "2025-03-18T19:36:51",
+      "end_date": "2025-03-24T18:48:00",
+      "summary": "The conversation covers various topics including coding challenges, algorithmic problems, and discussions about the camp's structure. It also includes explanations of specific problems like prefix sum and brute force algorithms.",
+      "topics": [
+        "coding challenges",
+        "algorithmic problems",
+        "prefix sum implementation",
+        "brute force approach",
+        "problem tag explanation"
+      ]
+    },
+    {
+      "chunk_index": 7,
+      "start_date": "2025-03-24T18:48:08",
+      "end_date": "2025-03-25T21:38:12",
+      "summary": "The conversation discusses various coding problems and solutions, including a problem about calculating the number of tiles needed to cover a rectangular area and another about finding the minimum steps a character can take in a grid. The participants also discuss different approaches to solve similar problems.",
+      "topics": [
+        "coding problems",
+        "tile calculation",
+        "grid traversal"
+      ]
+    },
+    {
+      "chunk_index": 8,
+      "start_date": "2025-03-25T21:40:13",
+      "end_date": "2025-03-27T01:16:02",
+      "summary": "The conversation primarily focused on code problems and explanations, with discussions about vector usage in C++, understanding the problem statement for a Codeforces problem, and clarifying conditions for determining if a number is lucky (consisting of only 4s and 7s).",
+      "topics": [
+        "C++ vector",
+        "Codeforces problem - 69A",
+        "Lucky numbers condition"
+      ]
+    },
+    {
+      "chunk_index": 9,
+      "start_date": "2025-03-27T03:56:57",
+      "end_date": "2025-04-02T21:50:48",
+      "summary": "The conversation covers various topics including a coding problem, set and vector usage in C++, debugging issues, and the importance of understanding STL functions. The group discusses solutions to problems related to string manipulation, array operations, and conditional statements.",
+      "topics": [
+        "Coding problem (Problem A from Codeforces)",
+        "Set and Vector usage in C++",
+        "STL functions",
+        "Debugging issues",
+        "Array and String Manipulation"
+      ]
+    },
+    {
+      "chunk_index": 10,
+      "start_date": "2025-04-02T21:52:01",
+      "end_date": "2025-04-05T02:25:25",
+      "summary": "The conversation discusses various issues related to accessing Codeforces, including login problems and submission issues. Solutions like using a VPN or changing the browser were proposed but did not resolve the issue. The team also worked on solving a specific problem involving extracting digits from an integer.",
+      "topics": [
+        "Codeforces access issues",
+        "Login problems",
+        "Submission issues",
+        "Digit extraction problem"
+      ]
+    },
+    {
+      "chunk_index": 11,
+      "start_date": "2025-04-05T02:25:45",
+      "end_date": "2025-04-06T20:34:42",
+      "summary": "The conversation covers various topics including problem-solving for Codeforces problems, understanding STL and OOP concepts in C++, optimizing code to reduce time and space complexity, and clarifying the logic of a specific problem. Discussions also include explanations about functions and loops, as well as corrections to incorrect implementations.",
+      "topics": [
+        "problem solving on Codeforces",
+        "understanding STL and OOP in C++",
+        "optimizing code for reduced time and space complexity",
+        "clarifying the logic of a specific problem",
+        "functions and loops"
+      ]
+    },
+    {
+      "chunk_index": 12,
+      "start_date": "2025-04-06T20:35:03",
+      "end_date": "2025-04-06T23:35:44",
+      "summary": "The conversation primarily discussed solutions to a programming problem involving strings and their manipulation. Solutions were proposed, debated, and refined until a working solution was reached.",
+      "topics": [
+        "programming problem",
+        "string manipulation",
+        "debugging techniques"
+      ]
+    },
+    {
+      "chunk_index": 13,
+      "start_date": "2025-04-06T23:36:05",
+      "end_date": "2025-04-08T16:51:04",
+      "summary": "The conversation covers preparations for the ACPC Camp 2026, including discussions on strategy, learning resources, and clarifications about the competition structure. Participants also share their experiences with coding challenges.",
+      "topics": [
+        "ACPC Camp 2026",
+        "coding strategies",
+        "learning resources",
+        "competition structure"
+      ]
+    },
+    {
+      "chunk_index": 14,
+      "start_date": "2025-04-08T16:51:27",
+      "end_date": "2025-04-10T22:22:04",
+      "summary": "The conversation primarily focused on clarifying the registration form for the ACPC Camp, discussing problem-solving techniques and code snippets in Codeforces, and addressing technical issues related to accessing Codeforces.",
+      "topics": [
+        "registration form",
+        "problem solving techniques",
+        "Codeforces access issues"
+      ]
+    },
+    {
+      "chunk_index": 15,
+      "start_date": "2025-04-10T22:22:16",
+      "end_date": "2025-04-11T21:25:36",
+      "summary": "The conversation covers various topics including code problems, learning strategies, and team formation for the ACPC Camp. Discussions also touch on problem-solving techniques and the importance of foundational programming knowledge.",
+      "topics": [
+        "code problems",
+        "learning strategies",
+        "team formation",
+        "problem-solving techniques",
+        "foundational programming knowledge"
+      ]
+    },
+    {
+      "chunk_index": 16,
+      "start_date": "2025-04-11T21:25:48",
+      "end_date": "2025-04-12T01:12:36",
+      "summary": "The conversation revolves around team formation, programming challenges, and clarifying coding issues. Topics include team dynamics, programming competitions, and the structure of code solutions.",
+      "topics": [
+        "team formation",
+        "programming competitions",
+        "coding challenges"
+      ]
+    },
+    {
+      "chunk_index": 17,
+      "start_date": "2025-04-12T01:13:29",
+      "end_date": "2025-04-12T01:56:49",
+      "summary": "The conversation revolves around discussing the difficulty of learning programming concepts and solving problems, with a focus on STL (Standard Template Library) and data structures. They also touch upon the importance of practice and patience in mastering these topics.",
+      "topics": [
+        "STL",
+        "data structure algorithm",
+        "learning programming"
+      ]
+    },
+    {
+      "chunk_index": 18,
+      "start_date": "2025-04-12T01:56:52",
+      "end_date": "2025-04-13T16:47:39",
+      "summary": "The conversation covers various topics including registration for the ACPC Camp, training schedules, and coding problems. Discussions revolve around C++ programming issues, string manipulation tasks, and understanding mathematical operations like modulo.",
+      "topics": [
+        "ACPC Camp registration",
+        "Training schedule planning",
+        "C++ programming challenges",
+        "String manipulation problem solving"
+      ]
+    },
+    {
+      "chunk_index": 19,
+      "start_date": "2025-04-13T16:48:02",
+      "end_date": "2025-04-13T22:33:31",
+      "summary": "The conversation discusses solutions for a programming problem, focusing on sorting numbers and finding the minimum number of coins with the largest sum. They also touch upon coding efficiency and learning resources.",
+      "topics": [
+        "programming problem solution",
+        "sorting algorithm",
+        "minimum coin problem",
+        "coding efficiency",
+        "learning resources"
+      ]
+    },
+    {
+      "chunk_index": 20,
+      "start_date": "2025-04-13T22:33:44",
+      "end_date": "2025-04-14T23:32:43",
+      "summary": "The discussion revolves around solving a problem and includes code reviews, clarifications on the problem statement, and jokes. The main focus is on understanding the logic of the solution and improving it.",
+      "topics": [
+        "problem-solving",
+        "code review",
+        "clarifying problem statement"
+      ]
+    },
+    {
+      "chunk_index": 21,
+      "start_date": "2025-04-14T23:32:58",
+      "end_date": "2025-04-15T21:12:16",
+      "summary": "The conversation covers various C++ problems and solutions, including a problem about counting the number of times one person beats another in different stages. Discussions also revolve around optimizing code for submission on an online platform and understanding error messages.",
+      "topics": [
+        "C++ programming",
+        "Error handling and debugging",
+        "Optimizing code for submission",
+        "Understanding problem constraints"
+      ]
+    },
+    {
+      "chunk_index": 22,
+      "start_date": "2025-04-15T21:15:02",
+      "end_date": "2025-04-15T22:35:53",
+      "summary": "The conversation primarily focused on solving a problem related to checking if two strings can be made equal by incrementing characters. Discussions included clarifying the logic, handling edge cases, and optimizing solutions using loops and conditions.",
+      "topics": [
+        "String manipulation",
+        "Loop implementation",
+        "Edge case handling",
+        "Optimization of code"
+      ]
+    },
+    {
+      "chunk_index": 23,
+      "start_date": "2025-04-15T22:36:14",
+      "end_date": "2025-04-16T19:52:19",
+      "summary": "The group discusses a coding problem related to counting numbers with specific digit patterns. They also address the scheduling of an ACPC Camp, debating whether it should be held on Saturday or after the weekend.",
+      "topics": [
+        "Coding problem: Counting numbers with specific digit patterns",
+        "ACPC Camp scheduling"
+      ]
+    },
+    {
+      "chunk_index": 24,
+      "start_date": "2025-04-16T19:52:36",
+      "end_date": "2025-04-17T20:36:04",
+      "summary": "The conversation primarily discussed coding problems and solutions, with a focus on understanding the 'swap' function in C++. The group also debated about how to solve permutation-based questions efficiently.",
+      "topics": [
+        "C++ swap function",
+        "Permutation problem solving"
+      ]
+    },
+    {
+      "chunk_index": 25,
+      "start_date": "2025-04-17T20:36:23",
+      "end_date": "2025-04-18T12:18:39",
+      "summary": "The conversation primarily focused on solving a pangram problem in C++. The group discussed the solution and provided alternative solutions, including one using sets to check if all English alphabets are present.",
+      "topics": [
+        "C++ code",
+        "pangram problem",
+        "alternative solutions"
+      ]
+    },
+    {
+      "chunk_index": 26,
+      "start_date": "2025-04-18T12:19:27",
+      "end_date": "2025-04-18T22:39:34",
+      "summary": "The conversation revolves around solving a problem related to frequency arrays and character sequences. Discussions include code submissions, explanations of solutions, and critiques of the provided codes.",
+      "topics": [
+        "frequency array",
+        "character sequence",
+        "code submission"
+      ]
+    },
+    {
+      "chunk_index": 27,
+      "start_date": "2025-04-18T22:40:11",
+      "end_date": "2025-04-18T23:16:41",
+      "summary": "The conversation discusses solving a programming problem related to finding the largest element in an array. They also touch on learning different programming concepts and courses, as well as the importance of understanding STL (Standard Template Library).",
+      "topics": [
+        "Programming problem: Finding the largest element in an array",
+        "Learning new programming concepts and courses",
+        "Understanding STL (Standard Template Library)",
+        "Importance of using loops and conditional statements"
+      ]
+    },
+    {
+      "chunk_index": 28,
+      "start_date": "2025-04-18T23:16:53",
+      "end_date": "2025-04-19T16:08:47",
+      "summary": "The conversation mainly discussed the difficulty level of problems in ACM competitions and how to solve a specific problem related to sorting integers. They also provided explanations for solving the problem and clarified some points about loops and conditions.",
+      "topics": [
+        "ACM competition difficulty levels",
+        "problem-solving strategies",
+        "loop and condition explanation"
+      ]
+    },
+    {
+      "chunk_index": 29,
+      "start_date": "2025-04-19T16:09:07",
+      "end_date": "2025-04-19T23:49:52",
+      "summary": "The conversation discusses various aspects of a programming problem, including the calculation of distances in a vector, handling edge cases for lucky numbers, and optimizing code. The group also addresses issues related to integer limits and builds.",
+      "topics": [
+        "vector distance calculation",
+        "handling lucky numbers",
+        "integer overflow prevention",
+        "code optimization"
+      ]
+    },
+    {
+      "chunk_index": 30,
+      "start_date": "2025-04-19T23:50:55",
+      "end_date": "2025-04-20T16:39:33",
+      "summary": "The conversation discusses various programming concepts and solutions, including sorting algorithms, containers, and specific code snippets. The main topics are understanding the concept of sorting and its application in solving problems.",
+      "topics": [
+        "Sorting algorithms",
+        "Containers (like arrays and lists)",
+        "Code snippets and debugging"
+      ]
+    },
+    {
+      "chunk_index": 31,
+      "start_date": "2025-04-20T16:39:37",
+      "end_date": "2025-04-20T17:34:46",
+      "summary": "The conversation revolves around a coding problem related to sorting and manipulating an array of numbers. The participants discuss the need for sorting, understanding the logic behind the solution provided by Walied, and clarifying the conditions under which the code should work.",
+      "topics": [
+        "coding problem",
+        "array manipulation",
+        "sorting"
+      ]
+    },
+    {
+      "chunk_index": 32,
+      "start_date": "2025-04-20T17:35:01",
+      "end_date": "2025-04-20T21:52:36",
+      "summary": "The conversation primarily discussed the structure and approach of programming courses, specifically focusing on C++ and data structures. They also touched upon the importance of understanding concepts like pointers and arrays in programming.",
+      "topics": [
+        "programming courses",
+        "C++",
+        "data structures",
+        "pointers",
+        "arrays"
+      ]
+    },
+    {
+      "chunk_index": 33,
+      "start_date": "2025-04-20T21:53:40",
+      "end_date": "2025-04-22T15:15:52",
+      "summary": "The conversation primarily focused on a coding problem related to printing spaces in a sequence of characters. Discussions included understanding the logic, debugging issues, and suggestions for improving efficiency.",
+      "topics": [
+        "coding problem",
+        "printing spaces",
+        "sequence of characters"
+      ]
+    },
+    {
+      "chunk_index": 34,
+      "start_date": "2025-04-22T16:08:10",
+      "end_date": "2025-04-22T23:31:21",
+      "summary": "The conversation revolves around solving a programming problem where strings need to be modified by removing 'WUB' sequences and inserting spaces between them. The group discusses various approaches, including using string manipulation functions and loops.",
+      "topics": [
+        "Programming Problem: String Manipulation",
+        "String Functions Usage",
+        "Loop Implementation"
+      ]
+    },
+    {
+      "chunk_index": 35,
+      "start_date": "2025-04-22T23:33:23",
+      "end_date": "2025-04-25T00:33:06",
+      "summary": "The conversation covers various topics including digit grouping, time complexity explanation, and the structure of a programming problem. Discussions also touch on the registration process for the ACM camp and clarifications about levels and participation.",
+      "topics": [
+        "digit grouping",
+        "time complexity calculation",
+        "programming problem structure",
+        "registration process for ACM camp",
+        "level determination and participation"
+      ]
+    },
+    {
+      "chunk_index": 36,
+      "start_date": "2025-04-25T00:33:09",
+      "end_date": "2025-04-27T16:06:17",
+      "summary": "The conversation covers registration, accommodation details, level-specific sessions, and clarifications on problem-solving techniques. It also includes discussions about the format of questions and solutions in programming problems.",
+      "topics": [
+        "registration",
+        "accommodation",
+        "level-specific sessions",
+        "problem-solving clarification",
+        "question format"
+      ]
+    },
+    {
+      "chunk_index": 37,
+      "start_date": "2025-04-27T16:06:27",
+      "end_date": "2025-04-27T21:47:20",
+      "summary": "The conversation discusses solving a problem related to identifying which number in a sequence of integers is the longest. The participants clarify and solve the issue, providing different solutions and explanations.",
+      "topics": [
+        "algorithm",
+        "problem-solving"
+      ]
+    },
+    {
+      "chunk_index": 38,
+      "start_date": "2025-04-27T21:47:35",
+      "end_date": "2025-04-27T22:18:51",
+      "summary": "The conversation revolved around a coding issue related to counting occurrences of characters in a string. Walied provided a code snippet, and the group discussed various approaches including using set data structure for efficient character counting.",
+      "topics": [
+        "character counting",
+        "code review",
+        "set data structure"
+      ]
+    },
+    {
+      "chunk_index": 39,
+      "start_date": "2025-04-27T22:18:53",
+      "end_date": "2025-04-27T23:24:45",
+      "summary": "The conversation discusses solutions to a problem related to finding a four-digit number where no digit is repeated and the sum of its digits equals 58. Solutions are provided in C++ using string manipulation.",
+      "topics": [
+        "C++ code",
+        "string manipulation",
+        "finding unique digits"
+      ]
+    },
+    {
+      "chunk_index": 40,
+      "start_date": "2025-04-27T23:24:53",
+      "end_date": "2025-04-28T21:48:13",
+      "summary": "The conversation primarily discussed solutions to a problem related to distributing people into groups for taxis, with various approaches and optimizations being proposed. Discussions also included explanations of the code provided by participants and feedback on its correctness.",
+      "topics": [
+        "group distribution",
+        "taxis allocation",
+        "code optimization"
+      ]
+    },
+    {
+      "chunk_index": 41,
+      "start_date": "2025-04-28T21:48:39",
+      "end_date": "2025-04-29T19:13:46",
+      "summary": "The chat discusses various programming problems and solutions, including a string manipulation task, sorting elements in a vector, and understanding the output of a code snippet related to the 'WUB' problem. Discussions also touch on syntax errors and optimization.",
+      "topics": [
+        "string manipulation",
+        "vector operations",
+        "code snippets analysis",
+        "syntax issues"
+      ]
+    },
+    {
+      "chunk_index": 42,
+      "start_date": "2025-04-29T19:14:14",
+      "end_date": "2025-04-29T23:28:38",
+      "summary": "The conversation primarily focused on resolving a runtime error issue in a C++ program, discussing the need to allocate sufficient memory for an array and handling edge cases. The participants also discussed how to solve a problem related to finding the longest subarray without decreasing order.",
+      "topics": [
+        "runtime error",
+        "memory allocation",
+        "subarray problems"
+      ]
+    },
+    {
+      "chunk_index": 43,
+      "start_date": "2025-04-29T23:28:45",
+      "end_date": "2025-04-30T00:51:54",
+      "summary": "The conversation discusses various aspects of the project, including code execution issues, file build failures, and the importance of understanding problem statements. They also touch on coding environments like CodeBlocks and VSCode.",
+      "topics": [
+        "code execution issues",
+        "file build failures",
+        "problem statement understanding",
+        "coding environment comparison"
+      ]
+    },
+    {
+      "chunk_index": 44,
+      "start_date": "2025-04-30T00:53:05",
+      "end_date": "2025-05-01T00:13:10",
+      "summary": "The conversation discusses solutions for a programming problem related to counting occurrences of even and odd numbers in an array, with participants sharing their approaches and clarifying the requirements. The main focus is on developing efficient code solutions.",
+      "topics": [
+        "programming problem",
+        "code optimization",
+        "array manipulation"
+      ]
+    },
+    {
+      "chunk_index": 45,
+      "start_date": "2025-05-01T00:13:30",
+      "end_date": "2025-05-01T11:48:27",
+      "summary": "The conversation revolves around resolving a coding issue related to counting occurrences of numbers in a sequence. The team discusses various solutions and approaches, including using loops and conditional statements.",
+      "topics": [
+        "coding issues",
+        "sequence analysis",
+        "conditional logic"
+      ]
+    },
+    {
+      "chunk_index": 46,
+      "start_date": "2025-05-01T11:48:44",
+      "end_date": "2025-05-01T14:18:52",
+      "summary": "The conversation primarily discussed solutions for a programming problem related to counting and processing numbers. The participants debated different approaches, including sorting arrays, using conditional statements, and handling edge cases.",
+      "topics": [
+        "programming problem",
+        "array manipulation",
+        "conditional logic"
+      ]
+    },
+    {
+      "chunk_index": 47,
+      "start_date": "2025-05-01T14:19:19",
+      "end_date": "2025-05-01T15:02:59",
+      "summary": "The conversation focused on a C++ code problem related to counting occurrences of numbers in an array and applying conditions. They discussed corrections, clarifications, and optimizations of the code.",
+      "topics": [
+        "C++ coding",
+        "array manipulation",
+        "conditional logic"
+      ]
+    },
+    {
+      "chunk_index": 48,
+      "start_date": "2025-05-01T15:02:59",
+      "end_date": "2025-05-01T20:50:33",
+      "summary": "The conversation primarily revolves around solving a problem where the goal is to identify repeated words in input strings, with a focus on optimizing the solution for time complexity. The team discusses various approaches and optimizations including using STL containers like vector, set, map, and deque.",
+      "topics": [
+        "problem-solving",
+        "optimization strategies",
+        "STL container usage"
+      ]
+    },
+    {
+      "chunk_index": 49,
+      "start_date": "2025-05-01T20:50:38",
+      "end_date": "2025-05-02T19:19:41",
+      "summary": "The conversation covers various topics including a code correction, vector and map usage, sorting based on the second element of pairs, and learning about tolower() and toupper() functions. The group discusses solutions for problems and provides explanations.",
+      "topics": [
+        "code corrections",
+        "vector & map usage",
+        "sorting by pair elements",
+        "tolower() and toupper() functions"
+      ]
+    },
+    {
+      "chunk_index": 50,
+      "start_date": "2025-05-02T19:43:49",
+      "end_date": "2025-05-03T00:31:35",
+      "summary": "The conversation covers various topics including C++ STL functions, vector capacity and size, understanding of a problem related to purchasing beads for students based on their number, and discussions about the importance of learning new programming concepts. The group also discusses jokes and personal experiences.",
+      "topics": [
+        "C++ STL functions",
+        "vector capacity and size in C++",
+        "Understanding a specific problem related to bead purchases for students",
+        "Importance of learning new programming concepts"
+      ]
+    },
+    {
+      "chunk_index": 51,
+      "start_date": "2025-05-03T00:31:46",
+      "end_date": "2025-05-03T13:51:36",
+      "summary": "The conversation primarily discussed various topics related to football, coding problems, and a specific question about Visual Studio 2022. Ahmad Karbouj initiated the discussion with jokes and comments on Barcelona's performance. Walied Hritani provided solutions for programming challenges including calculating remainders, reversing vectors, and printing patterns. Rima asked about issues with certain libraries in Visual Studio 2022.",
+      "topics": [
+        "Football",
+        "Coding Problems",
+        "Visual Studio 2022"
+      ]
+    },
+    {
+      "chunk_index": 52,
+      "start_date": "2025-05-03T13:51:48",
+      "end_date": "2025-05-04T01:15:08",
+      "summary": "The conversation primarily discussed a programming problem related to handling CapsLock in strings. Solutions were proposed and tested, leading to the development of a working solution for the issue.",
+      "topics": [
+        "programming",
+        "CapsLock handling",
+        "C++"
+      ]
+    },
+    {
+      "chunk_index": 53,
+      "start_date": "2025-05-04T01:16:41",
+      "end_date": "2025-05-04T23:58:49",
+      "summary": "The conversation covers various coding problems and discussions, including parsing strings into digits, counting characters in a string, calculating the number of squares within a rectangle, understanding DSU (Disjoint Set Union) requirements for project preparation, and clarifying language issues. Discussions also touch on optimization techniques like using ios::sync_with_stdio(false) to speed up input/output operations.",
+      "topics": [
+        "Parsing strings into digits",
+        "Counting characters in a string",
+        "Calculating squares within a rectangle",
+        "DSU (Disjoint Set Union) requirements for project preparation",
+        "Optimization techniques: ios::sync_with_stdio(false)"
+      ]
+    },
+    {
+      "chunk_index": 54,
+      "start_date": "2025-05-05T00:09:36",
+      "end_date": "2025-05-05T00:51:58",
+      "summary": "The conversation revolved around a programming problem, with participants discussing the logic and structure of their code. They also addressed potential improvements to the solution, including using pair structures for better organization, and considered increasing the input size from 1000 to 10000.",
+      "topics": [
+        "programming problem",
+        "code structure",
+        "pair structures",
+        "input size increase"
+      ]
+    },
+    {
+      "chunk_index": 55,
+      "start_date": "2025-05-05T00:52:00",
+      "end_date": "2025-05-05T20:02:42",
+      "summary": "The conversation covered various topics including algorithmic structures, debugging code, and understanding the concept of prime numbers. Discussions also included clarifications on programming concepts like loops, conditionals, and data types.",
+      "topics": [
+        "algorithmic structures",
+        "debugging code",
+        "prime numbers",
+        "loops",
+        "conditionals",
+        "data types"
+      ]
+    },
+    {
+      "chunk_index": 56,
+      "start_date": "2025-05-05T20:02:52",
+      "end_date": "2025-05-06T00:51:49",
+      "summary": "The conversation primarily discussed coding problems and solutions, with participants sharing their code snippets and providing feedback. Topics included problem-solving strategies for specific programming challenges.",
+      "topics": [
+        "coding problems",
+        "code snippets",
+        "feedback on code"
+      ]
+    },
+    {
+      "chunk_index": 57,
+      "start_date": "2025-05-06T00:52:09",
+      "end_date": "2025-05-06T19:31:33",
+      "summary": "The conversation primarily focused on understanding and solving a programming problem related to finding the minimum difference between any two elements in an array after removing s-1 elements. The participants discussed various approaches, including sorting and using maps, but eventually settled on a solution that sorts the input array and calculates the minimum difference based on the sorted order.",
+      "topics": [
+        "programming problem",
+        "array manipulation",
+        "sorting algorithm",
+        "minimum difference calculation"
+      ]
+    },
+    {
+      "chunk_index": 58,
+      "start_date": "2025-05-06T19:31:45",
+      "end_date": "2025-05-07T01:27:19",
+      "summary": "The conversation covers various topics including testing, debugging, code optimization, and problem-solving. Discussions revolve around issues with the website's login system, understanding of a specific programming challenge, and optimizing code efficiency.",
+      "topics": [
+        "testing",
+        "debugging",
+        "code optimization",
+        "programming challenges"
+      ]
+    },
+    {
+      "chunk_index": 59,
+      "start_date": "2025-05-07T01:28:33",
+      "end_date": "2025-05-07T20:03:05",
+      "summary": "Walied and Abdulkarim discussed a problem related to finding if a number is divisible by three numbers. They initially had issues with their code, but eventually found that the solution involves checking if the square root of a number is an integer and then verifying if it's prime.",
+      "topics": [
+        "number divisibility",
+        "square root check",
+        "prime number"
+      ]
+    },
+    {
+      "chunk_index": 60,
+      "start_date": "2025-05-07T20:03:36",
+      "end_date": "2025-05-07T22:15:35",
+      "summary": "The conversation focused on debugging and understanding a problem related to finding if a number is prime. They discussed the importance of correctly handling integer division, using long long for square root calculations, and applying binary search techniques.",
+      "topics": [
+        "prime number checking",
+        "integer division handling",
+        "long long usage",
+        "binary search"
+      ]
+    },
+    {
+      "chunk_index": 61,
+      "start_date": "2025-05-07T22:15:54",
+      "end_date": "2025-05-08T00:18:08",
+      "summary": "The conversation discusses a programming problem related to checking if the square root of numbers is an integer. They also discuss constraints and test cases for their solutions, as well as jokes about the complexity of solving such problems.",
+      "topics": [
+        "programming problem",
+        "square root check",
+        "constraints",
+        "test cases"
+      ]
+    },
+    {
+      "chunk_index": 62,
+      "start_date": "2025-05-08T00:18:13",
+      "end_date": "2025-05-08T02:08:44",
+      "summary": "The conversation discusses solving a problem related to purchasing coins with denominations of 10 and r, aiming for the smallest number of coins. The participants also discuss their learning paths in programming.",
+      "topics": [
+        "problem-solving",
+        "programming education"
+      ]
+    },
+    {
+      "chunk_index": 63,
+      "start_date": "2025-05-08T02:09:08",
+      "end_date": "2025-05-09T00:19:36",
+      "summary": "The conversation covers the planning and execution of a coding challenge, including discussions on problem-solving approaches, code submission, and clarifications about specific requirements.",
+      "topics": [
+        "Coding challenge planning",
+        "Problem solving strategies",
+        "Code submissions and reviews",
+        "Clarifying requirements for the coding challenge"
+      ]
+    },
+    {
+      "chunk_index": 64,
+      "start_date": "2025-05-09T00:19:56",
+      "end_date": "2025-05-09T02:12:55",
+      "summary": "The conversation primarily focused on discussing and solving a programming problem related to counting the number of days until all items of a certain color are exhausted. They also discussed code snippets, naming conventions, and team collaboration for a coding competition.",
+      "topics": [
+        "programming problem",
+        "code snippets",
+        "naming conventions",
+        "coding competition"
+      ]
+    },
+    {
+      "chunk_index": 65,
+      "start_date": "2025-05-09T02:13:19",
+      "end_date": "2025-05-09T15:22:21",
+      "summary": "The discussion revolves around understanding and solving a problem related to distributing cards among players based on the values of each card. The team discusses various aspects including the order in which cards are chosen, the condition for removing elements from an array, and how to implement these conditions using loops and conditional statements.",
+      "topics": [
+        "card distribution logic",
+        "array manipulation",
+        "loop implementation"
+      ]
+    },
+    {
+      "chunk_index": 66,
+      "start_date": "2025-05-09T15:22:47",
+      "end_date": "2025-05-09T18:00:07",
+      "summary": "The conversation primarily focused on understanding and implementing a solution to a problem involving sorting elements in an array. Ahmad Karbouj provided multiple explanations, including code snippets, while Walied Hritani and Nour Taha questioned the logic and efficiency of the solutions.",
+      "topics": [
+        "array manipulation",
+        "sorting algorithm",
+        "code implementation"
+      ]
+    },
+    {
+      "chunk_index": 67,
+      "start_date": "2025-05-09T18:00:27",
+      "end_date": "2025-05-10T00:18:30",
+      "summary": "The conversation mainly focused on clarifying and implementing a solution for the problem of pairing elements in an array. Discussions also included scheduling details for the coding camp, including which sessions would be held and how to register.",
+      "topics": [
+        "solution implementation",
+        "coding camp schedule",
+        "registration process"
+      ]
+    },
+    {
+      "chunk_index": 68,
+      "start_date": "2025-05-10T00:18:44",
+      "end_date": "2025-05-10T21:54:52",
+      "summary": "The conversation primarily focused on clarifying the schedule and venue for a programming camp, with discussions about test cases, code submissions, and logistical issues. There were also some jokes and expressions of concern.",
+      "topics": [
+        "programming camp schedule",
+        "test cases",
+        "code submission",
+        "logistical issues"
+      ]
+    },
+    {
+      "chunk_index": 69,
+      "start_date": "2025-05-10T21:54:55",
+      "end_date": "2025-05-10T23:49:16",
+      "summary": "The conversation discusses the ACPC Camp 2026 camp activities, focusing on solving a programming problem related to sequences and numbers. The team members discuss various aspects of the problem including input/output methods, array handling, and debugging.",
+      "topics": [
+        "ACPC Camp 2026",
+        "programming problem discussion",
+        "array manipulation",
+        "debugging"
+      ]
+    },
+    {
+      "chunk_index": 70,
+      "start_date": "2025-05-10T23:49:16",
+      "end_date": "2025-05-11T23:23:32",
+      "summary": "The conversation discusses solutions to programming problems, including sorting questions and a code challenge. The group collaborates on fixing issues in the provided code snippets and clarifies concepts like character casing and set operations.",
+      "topics": [
+        "programming problem solving",
+        "code debugging",
+        "character manipulation",
+        "set operations"
+      ]
+    },
+    {
+      "chunk_index": 71,
+      "start_date": "2025-05-11T23:24:05",
+      "end_date": "2025-05-12T00:56:15",
+      "summary": "The conversation primarily focused on a C++ code problem and its solution. The group discussed the necessity of understanding when to use conditional statements (if) in their programming approach, emphasizing that sometimes simpler solutions are more effective.",
+      "topics": [
+        "C++ coding",
+        "Conditional statement usage"
+      ]
+    },
+    {
+      "chunk_index": 72,
+      "start_date": "2025-05-12T01:02:12",
+      "end_date": "2025-05-12T20:40:39",
+      "summary": "The conversation revolved around understanding a problem and implementing a solution. Key points included clarifying the logic of the code, discussing test cases, and resolving issues with the implementation.",
+      "topics": [
+        "problem solving",
+        "code implementation",
+        "test case discussion"
+      ]
+    },
+    {
+      "chunk_index": 73,
+      "start_date": "2025-05-12T20:41:19",
+      "end_date": "2025-05-12T23:35:34",
+      "summary": "The conversation revolves around understanding and solving a problem related to disease spread in a population, with discussions on the logic of movement between states (l and r) and conditions for transitioning. The participants also discuss debugging their code and clarifying the constraints.",
+      "topics": [
+        "disease spread simulation",
+        "code debugging",
+        "logic of state transitions"
+      ]
+    },
+    {
+      "chunk_index": 74,
+      "start_date": "2025-05-12T23:35:43",
+      "end_date": "2025-05-13T14:17:21",
+      "summary": "The discussion revolves around a problem where the goal is to find the minimum difference between two consecutive elements in an array, with some constraints on the values of these elements. The team discusses how to handle edge cases and clarifies the logic for calculating the final result.",
+      "topics": [
+        "array manipulation",
+        "minimize difference between elements",
+        "edge cases"
+      ]
+    },
+    {
+      "chunk_index": 75,
+      "start_date": "2025-05-13T14:53:15",
+      "end_date": "2025-05-13T18:24:30",
+      "summary": "The conversation primarily focused on resolving an algorithm problem related to calculating the output for given inputs. The participants discussed and refined their approach, including correcting code syntax and logic errors.",
+      "topics": [
+        "algorithm problem",
+        "code correction"
+      ]
+    },
+    {
+      "chunk_index": 76,
+      "start_date": "2025-05-13T18:24:51",
+      "end_date": "2025-05-14T00:59:09",
+      "summary": "The conversation revolved around solving a problem related to sorting and counting groups of numbers. Walied and Karam discussed various approaches, including using the sort function from the algorithm library, until they found a solution that worked correctly.",
+      "topics": [
+        "sorting",
+        "algorithm functions",
+        "grouping numbers"
+      ]
+    },
+    {
+      "chunk_index": 77,
+      "start_date": "2025-05-14T00:59:12",
+      "end_date": "2025-05-14T20:22:33",
+      "summary": "The conversation revolved around solving a programming problem related to calculating the number of flags that can be placed on a grid given its dimensions and square size. The team discussed various approaches, including using modulo operations for remainder calculations and handling large numbers with `long long` data types.",
+      "topics": [
+        "programming problem",
+        "grid placement calculation",
+        "remainder operation",
+        "large number handling"
+      ]
+    },
+    {
+      "chunk_index": 78,
+      "start_date": "2025-05-14T20:22:45",
+      "end_date": "2025-05-14T23:53:12",
+      "summary": "The conversation primarily focused on solving a problem related to counting the number of different characters in a string and handling repeated characters. Discussions included how to calculate input limits, using loops, and optimizing solutions for efficiency.",
+      "topics": [
+        "input limits",
+        "loop optimization",
+        "counting unique characters"
+      ]
+    },
+    {
+      "chunk_index": 79,
+      "start_date": "2025-05-14T23:53:22",
+      "end_date": "2025-05-16T01:20:09",
+      "summary": "The conversation revolves around discussing solutions and clarifying doubts regarding a programming problem, including discussions on the logic of the solution and how to implement it. The main focus is on understanding and implementing a specific algorithm for solving a problem related to binary search, two pointers, and sorting.",
+      "topics": [
+        "programming problem",
+        "binary search",
+        "two pointers",
+        "sorting",
+        "gcd function"
+      ]
+    },
+    {
+      "chunk_index": 80,
+      "start_date": "2025-05-16T01:20:11",
+      "end_date": "2025-05-16T19:50:16",
+      "summary": "The conversation primarily focused on understanding and solving a problem related to counting occurrences of numbers in a string, with discussions about different approaches and solutions. The participants also discussed time management for the upcoming coding camp.",
+      "topics": [
+        "counting occurrences in string",
+        "time management"
+      ]
+    },
+    {
+      "chunk_index": 81,
+      "start_date": "2025-05-16T19:50:25",
+      "end_date": "2025-05-16T22:46:42",
+      "summary": "The conversation primarily focused on resolving a code issue related to finding the minimum and maximum indices in an array. Ahmad Tabbakh provided a solution, but faced issues with the compiler due to reserved keywords like 'max'. The group worked through these issues until they reached a working solution.",
+      "topics": [
+        "code review",
+        "array manipulation",
+        "compiler errors"
+      ]
+    },
+    {
+      "chunk_index": 82,
+      "start_date": "2025-05-16T22:46:49",
+      "end_date": "2025-05-17T00:51:39",
+      "summary": "The conversation discusses solutions to programming problems, including a matrix problem and an arithmetic mean calculation for smaller subarrays. The group is frustrated with the complexity of the test cases and questions the fairness of the competition.",
+      "topics": [
+        "programming problem solutions",
+        "matrix problem",
+        "arithmetic mean calculation",
+        "test case complexity"
+      ]
+    },
+    {
+      "chunk_index": 83,
+      "start_date": "2025-05-17T00:52:32",
+      "end_date": "2025-05-18T09:33:46",
+      "summary": "The conversation discusses a code problem and solutions related to binary search, two pointers, sorting, and debugging. The team also plans for the next session in room 2.",
+      "topics": [
+        "code review",
+        "binary search",
+        "two pointers",
+        "sorting",
+        "debugging"
+      ]
+    },
+    {
+      "chunk_index": 84,
+      "start_date": "2025-05-18T09:34:18",
+      "end_date": "2025-05-18T23:16:14",
+      "summary": "The discussion focused on a coding problem where Walied provided an initial solution and later refined it. The main issue was determining the correct output for numbers divisible by both 3 and 5 (i.e., multiples of 15). Ahmad Karbouj had some confusion about this, leading to further clarification and refinement of the code.",
+      "topics": [
+        "coding problem",
+        "number divisibility",
+        "code debugging"
+      ]
+    },
+    {
+      "chunk_index": 85,
+      "start_date": "2025-05-18T23:16:23",
+      "end_date": "2025-05-19T20:25:24",
+      "summary": "The conversation discusses solutions for the fizzbuzz problem and code challenges related to arrays, loops, and mathematical operations. They also address questions about code syntax and logic.",
+      "topics": [
+        "fizzbuzz solution",
+        "array manipulation",
+        "code debugging",
+        "mathematical operations"
+      ]
+    },
+    {
+      "chunk_index": 86,
+      "start_date": "2025-05-19T20:25:29",
+      "end_date": "2025-05-20T15:56:12",
+      "summary": "The conversation primarily focused on debugging and understanding the logic of a code for a problem related to counting occurrences of numbers in an array. Discussions also included clarifying test cases, fixing bugs, and understanding edge cases.",
+      "topics": [
+        "debugging",
+        "array manipulation",
+        "test case clarification"
+      ]
+    },
+    {
+      "chunk_index": 87,
+      "start_date": "2025-05-20T19:10:38",
+      "end_date": "2025-05-20T23:59:25",
+      "summary": "The discussion focused on solving a problem involving the sum of digits and checking if one number is exactly one more than the digit sum of another. The team discussed different approaches, including dividing by nine and considering cases where the numbers are multiples of nine.",
+      "topics": [
+        "digit sum",
+        "number comparison",
+        "problem-solving strategies"
+      ]
+    },
+    {
+      "chunk_index": 88,
+      "start_date": "2025-05-20T23:59:31",
+      "end_date": "2025-05-22T21:46:28",
+      "summary": "The conversation mainly discussed a programming problem related to finding if the difference between two numbers is divisible by 9. They also touched on debugging and understanding code, as well as discussing strategies for solving problems in competitive programming.",
+      "topics": [
+        "programming problem",
+        "debugging",
+        "competitive programming strategies"
+      ]
+    },
+    {
+      "chunk_index": 89,
+      "start_date": "2025-05-22T21:46:49",
+      "end_date": "2025-05-23T22:23:44",
+      "summary": "The conversation primarily revolves around solving a programming problem related to calculating the sum of numbers and applying certain operations on them. The team discusses various aspects such as input handling, output formatting, and optimization strategies for their solution.",
+      "topics": [
+        "programming problem",
+        "input/output handling",
+        "optimization strategies"
+      ]
+    },
+    {
+      "chunk_index": 90,
+      "start_date": "2025-05-23T22:24:17",
+      "end_date": "2025-05-24T02:05:05",
+      "summary": "The conversation revolved around a programming problem related to calculating the number of days needed to complete tasks based on given inputs. They discussed and corrected code, focusing on understanding the logic behind the solution.",
+      "topics": [
+        "programming problem",
+        "code correction",
+        "algorithm explanation"
+      ]
+    },
+    {
+      "chunk_index": 91,
+      "start_date": "2025-05-24T02:05:59",
+      "end_date": "2025-05-25T00:02:42",
+      "summary": "The conversation covers various topics including ACPC Camp 2026 problems, solutions for specific programming tasks, and clarifications on test cases. Discussions also revolve around the structure of matrices in C++ and how to solve a problem involving sequences.",
+      "topics": [
+        "ACPC Camp 2026 problems",
+        "Programming task solutions",
+        "Clarification on test cases",
+        "Matrix structures in C++",
+        "Sequence problem"
+      ]
+    },
+    {
+      "chunk_index": 92,
+      "start_date": "2025-05-25T00:02:55",
+      "end_date": "2025-05-25T20:56:23",
+      "summary": "The conversation covered various aspects of a programming problem, including the logic for counting occurrences where two consecutive characters are identical and how to handle different input formats. The group also discussed the concept of 'nearly lucky' numbers in a coding contest context.",
+      "topics": [
+        "Logic for counting consecutive characters",
+        "Handling different input formats",
+        "'Nearly Lucky' number problem discussion"
+      ]
+    },
+    {
+      "chunk_index": 93,
+      "start_date": "2025-05-25T21:08:33",
+      "end_date": "2025-05-26T20:12:56",
+      "summary": "The conversation discusses issues with code diagnostics, solutions to problems related to arrays and integers, discussions about contest participation, and clarifications on contest results.",
+      "topics": [
+        "code diagnostics",
+        "array handling",
+        "integer operations",
+        "contest participation",
+        "contest results"
+      ]
+    },
+    {
+      "chunk_index": 94,
+      "start_date": "2025-05-26T20:13:43",
+      "end_date": "2025-05-27T15:58:24",
+      "summary": "The conversation covered various topics including a coding problem, number theory problems, seating arrangements, and the progress of solving number theory questions. Discussions also included clarifications on code issues and explanations for solutions.",
+      "topics": [
+        "Coding Problem",
+        "Number Theory Problems",
+        "Seating Arrangements",
+        "Progress in Solving Number Theory Questions"
+      ]
+    },
+    {
+      "chunk_index": 95,
+      "start_date": "2025-05-27T16:08:14",
+      "end_date": "2025-05-27T23:29:03",
+      "summary": "The conversation discusses solutions to a programming problem, with participants sharing their approaches and insights. They also discuss the challenges of handling test cases and optimizing code for efficiency.",
+      "topics": [
+        "Programming problem solution",
+        "Handling test cases",
+        "Optimizing code"
+      ]
+    },
+    {
+      "chunk_index": 96,
+      "start_date": "2025-05-27T23:29:19",
+      "end_date": "2025-05-28T01:30:10",
+      "summary": "The conversation discusses solutions to a programming problem and plans for the upcoming competition, including team progress, challenges faced, and future strategies.",
+      "topics": [
+        "programming problem solution",
+        "competition planning",
+        "team progress"
+      ]
+    },
+    {
+      "chunk_index": 97,
+      "start_date": "2025-05-28T01:30:15",
+      "end_date": "2025-05-28T21:03:52",
+      "summary": "The group discusses solutions to a coding problem, with various participants sharing their approaches and optimizations. The conversation also includes discussions about the structure of the ACPC Camp and clarifications on how tasks are distributed among team members.",
+      "topics": [
+        "Coding problem solutions",
+        "ACPC Camp task distribution",
+        "Coding challenges and optimization techniques"
+      ]
+    },
+    {
+      "chunk_index": 98,
+      "start_date": "2025-05-28T21:03:59",
+      "end_date": "2025-05-29T01:52:12",
+      "summary": "The conversation discusses solutions to programming problems, including a code snippet for solving the problem and discussions on optimization techniques. It also covers questions about run-time errors and provides hints for solving similar problems.",
+      "topics": [
+        "programming problem solution",
+        "optimization techniques",
+        "run-time error handling"
+      ]
+    },
+    {
+      "chunk_index": 99,
+      "start_date": "2025-05-29T01:52:20",
+      "end_date": "2025-05-29T21:21:39",
+      "summary": "The conversation primarily discussed various coding problems and solutions, with a focus on understanding the logic behind the problem statements. Discussions also included jokes and team dynamics.",
+      "topics": [
+        "coding problems",
+        "problem solving strategies",
+        "team dynamics"
+      ]
+    },
+    {
+      "chunk_index": 100,
+      "start_date": "2025-05-29T21:21:40",
+      "end_date": "2025-05-30T19:14:34",
+      "summary": "The conversation covers various topics including explaining solutions, clarifying TLE and TL issues, discussing code execution times, understanding problem constraints, and providing guidance on debugging. The main focus is on solving coding problems in the ACPC Camp.",
+      "topics": [
+        "TLE and TL explanations",
+        "Code optimization for time complexity",
+        "Understanding problem constraints and input/output requirements",
+        "Debugging and testing code",
+        "Clarifying solution logic"
+      ]
+    },
+    {
+      "chunk_index": 101,
+      "start_date": "2025-05-30T19:38:33",
+      "end_date": "2025-05-30T22:09:20",
+      "summary": "The conversation revolves around discussing and clarifying the problem statement, solution approach, and debugging strategies for a programming challenge. Discussions include understanding of loops, conditions, and optimization techniques to handle time constraints.",
+      "topics": [
+        "problem statement",
+        "solution approach",
+        "debugging strategies",
+        "optimization techniques"
+      ]
+    },
+    {
+      "chunk_index": 102,
+      "start_date": "2025-05-30T22:09:21",
+      "end_date": "2025-05-31T21:26:11",
+      "summary": "The conversation covers various topics including a coding problem, gaming theory blogs, and the ACPC Camp 2026. Discussions also include solutions to problems like finding the sum of shortest paths between nodes in graphs.",
+      "topics": [
+        "Coding problem",
+        "Gaming Theory Blogs",
+        "ACPC Camp 2026",
+        "Graphs and Shortest Paths"
+      ]
+    },
+    {
+      "chunk_index": 103,
+      "start_date": "2025-05-31T21:27:23",
+      "end_date": "2025-06-01T22:46:07",
+      "summary": "The conversation covers various topics including gym setup, problem solving sessions, and code submissions. It also includes discussions on the structure of a C++ program and debugging issues.",
+      "topics": [
+        "gym setup",
+        "problem-solving sessions",
+        "code submissions",
+        "C++ programming structure",
+        "debugging"
+      ]
+    },
+    {
+      "chunk_index": 104,
+      "start_date": "2025-06-01T22:49:14",
+      "end_date": "2025-06-03T00:32:06",
+      "summary": "The conversation primarily focused on code snippets and explanations, with discussions about the importance of readability in code for future use and understanding. The group also discussed team dynamics and the need for different approaches to coding based on context.",
+      "topics": [
+        "code snippets",
+        "readability",
+        "team dynamics",
+        "coding approach"
+      ]
+    },
+    {
+      "chunk_index": 105,
+      "start_date": "2025-06-03T00:32:14",
+      "end_date": "2025-06-03T11:04:13",
+      "summary": "The conversation primarily discussed the learning process and challenges in software development, with a focus on the effectiveness of online courses and the importance of understanding concepts rather than just memorizing code. They also touched upon the structure of the curriculum for the upcoming week.",
+      "topics": [
+        "learning process",
+        "challenges in software development",
+        "effectiveness of online courses",
+        "curriculum structure"
+      ]
+    },
+    {
+      "chunk_index": 106,
+      "start_date": "2025-06-03T11:05:01",
+      "end_date": "2025-06-04T21:14:43",
+      "summary": "The conversation covers various topics including the schedule for the upcoming week, coding problems, and discussions about academic integrity. It also includes a code snippet and questions related to it.",
+      "topics": [
+        "Coding problems",
+        "Academic Integrity",
+        "Weekend Schedule",
+        "Code Snippet Discussion"
+      ]
+    },
+    {
+      "chunk_index": 107,
+      "start_date": "2025-06-04T21:14:54",
+      "end_date": "2025-06-06T01:01:56",
+      "summary": "The conversation primarily discussed a programming problem related to permutations and arrays, with some participants providing hints on how to solve the issue. The main points of discussion included understanding the constraints, debugging issues, and clarifying the expected input/output format for different test cases.",
+      "topics": [
+        "permutations",
+        "arrays",
+        "programming problems",
+        "debugging"
+      ]
+    },
+    {
+      "chunk_index": 108,
+      "start_date": "2025-06-06T01:01:59",
+      "end_date": "2025-06-07T15:48:34",
+      "summary": "The conversation primarily discussed issues with a code snippet related to reading input and handling strings. They also touched on the concept of permutations, backtracking, and understanding problem statements for algorithmic challenges.",
+      "topics": [
+        "code review",
+        "algorithmic problems",
+        "permutations",
+        "backtracking"
+      ]
+    },
+    {
+      "chunk_index": 109,
+      "start_date": "2025-06-07T16:00:59",
+      "end_date": "2025-06-08T11:06:24",
+      "summary": "The conversation discusses problems related to stacks and binary search, with participants debating solutions and clarifying requirements for the sixth problem. The main focus is on understanding the core of each problem and proposing efficient solutions.",
+      "topics": [
+        "stack operations",
+        "binary search algorithms",
+        "problem solving strategies"
+      ]
+    },
+    {
+      "chunk_index": 110,
+      "start_date": "2025-06-08T11:36:20",
+      "end_date": "2025-06-08T16:55:17",
+      "summary": "The conversation discusses solutions for a coding problem related to stacks and queues. Participants provide code snippets, discuss issues with TLE (Time Limit Exceeded), and seek clarification on specific conditions.",
+      "topics": [
+        "coding problem",
+        "stacks and queues",
+        "TLE",
+        "code review"
+      ]
+    },
+    {
+      "chunk_index": 111,
+      "start_date": "2025-06-08T16:56:19",
+      "end_date": "2025-06-08T20:19:33",
+      "summary": "The conversation revolved around explaining and solving a recursive function problem, specifically the factorial function. They discussed various aspects including recursion depth, time complexity, and different types of trees (like Fibonacci tree).",
+      "topics": [
+        "recursive function",
+        "factorial",
+        "time complexity",
+        "tree structure"
+      ]
+    },
+    {
+      "chunk_index": 112,
+      "start_date": "2025-06-08T20:55:56",
+      "end_date": "2025-06-09T18:42:42",
+      "summary": "Discussion focused on solving problems related to binary search and Fibonacci sequence, with participants providing explanations, sharing code snippets, and offering advice. The conversation also included a technical discussion about time complexity of certain algorithms.",
+      "topics": [
+        "binary search",
+        "Fibonacci sequence",
+        "time complexity",
+        "codeforces problem sets"
+      ]
+    },
+    {
+      "chunk_index": 113,
+      "start_date": "2025-06-09T18:43:05",
+      "end_date": "2025-06-10T00:00:09",
+      "summary": "The conversation covers various problems and solutions, including a problem about distributing gifts among people. Discussions also revolve around coding challenges and the structure of input/output for different test cases.",
+      "topics": [
+        "coding challenge",
+        "gift distribution problem",
+        "input/output handling"
+      ]
+    },
+    {
+      "chunk_index": 114,
+      "start_date": "2025-06-10T01:39:58",
+      "end_date": "2025-06-10T19:35:42",
+      "summary": "The conversation covered questions about the ACM-ICPC competition, including how to prepare and what kind of problems to solve. They also discussed system issues with a programming contest solution.",
+      "topics": [
+        "ACM-ICPC preparation",
+        "programming contest solutions",
+        "system issues"
+      ]
+    },
+    {
+      "chunk_index": 115,
+      "start_date": "2025-06-10T19:37:25",
+      "end_date": "2025-06-11T01:26:14",
+      "summary": "The team discusses a problem related to distributing elements into two arrays such that the difference between the maximum element in one array and the minimum element in another is minimized. They also discuss optimization techniques, time complexity issues, and learning strategies.",
+      "topics": [
+        "array distribution",
+        "time complexity",
+        "optimization techniques"
+      ]
+    },
+    {
+      "chunk_index": 116,
+      "start_date": "2025-06-11T01:26:26",
+      "end_date": "2025-06-11T01:47:15",
+      "summary": "The group discussed potential salaries and career prospects, emphasizing the importance of perseverance and God's role in achieving goals. They also touched on the challenges faced by freelancers and the need for patience and faith.",
+      "topics": [
+        "potential salaries",
+        "career prospects",
+        "perseverance",
+        "God's role",
+        "freelancing challenges"
+      ]
+    },
+    {
+      "chunk_index": 117,
+      "start_date": "2025-06-11T01:47:25",
+      "end_date": "2025-06-11T12:30:39",
+      "summary": "The conversation discusses career prospects, the value of learning and training in programming, and specific questions about learning paths. It also includes a discussion on code snippets related to a scheduling problem.",
+      "topics": [
+        "career prospects",
+        "value of training",
+        "learning paths",
+        "code snippets"
+      ]
+    },
+    {
+      "chunk_index": 118,
+      "start_date": "2025-06-11T15:01:45",
+      "end_date": "2025-06-11T23:41:32",
+      "summary": "The conversation primarily discussed a programming problem related to an array and its median. The participants also touched on the concept of binary search, which was explained by Walied Hritani.",
+      "topics": [
+        "programming problem",
+        "binary search",
+        "array median"
+      ]
+    },
+    {
+      "chunk_index": 119,
+      "start_date": "2025-06-11T23:41:39",
+      "end_date": "2025-06-12T23:59:53",
+      "summary": "The conversation covers various topics including code explanations, clarifications on problem statements, and discussions about the camp structure. It also includes a request for explanation of a specific programming challenge and feedback on solutions provided by participants.",
+      "topics": [
+        "Code explanations",
+        "Clarifying problem statements",
+        "Camp structure discussion",
+        "Programming challenge explanation",
+        "Feedback on submitted solutions"
+      ]
+    },
+    {
+      "chunk_index": 120,
+      "start_date": "2025-06-13T00:00:25",
+      "end_date": "2025-06-13T19:23:35",
+      "summary": "The conversation discusses various problems and solutions, including a packing rectangles problem and a coding challenge. Discussions revolve around understanding the problem statement, proposing solution approaches, and testing code.",
+      "topics": [
+        "packing rectangles problem",
+        "coding challenges",
+        "problem understanding"
+      ]
+    },
+    {
+      "chunk_index": 121,
+      "start_date": "2025-06-13T19:24:34",
+      "end_date": "2025-06-14T15:00:14",
+      "summary": "The conversation primarily focused on solving a problem related to the sum of numbers in an arithmetic sequence, with discussions about formulas and examples. The group also briefly touched upon coding issues and other miscellaneous topics.",
+      "topics": [
+        "arithmetic sequence",
+        "sum formula",
+        "coding errors"
+      ]
+    },
+    {
+      "chunk_index": 122,
+      "start_date": "2025-06-14T15:00:30",
+      "end_date": "2025-06-14T20:49:23",
+      "summary": "The conversation primarily focused on clarifying the structure and approach for explaining Binary Search, with discussions about how to handle questions and provide solutions effectively. The group also discussed the importance of practicing problems from the Edu section and agreed that they would start solving them after the camp.",
+      "topics": [
+        "Binary Search explanation",
+        "Practice problems from Edu section"
+      ]
+    },
+    {
+      "chunk_index": 123,
+      "start_date": "2025-06-14T20:49:30",
+      "end_date": "2025-06-14T23:09:07",
+      "summary": "The conversation focused on a coding problem related to finding the smallest and largest indices of elements in a vector that match given queries. The participants discussed and corrected code issues, including handling cases where the query matches an element.",
+      "topics": [
+        "vector manipulation",
+        "query matching",
+        "index calculation"
+      ]
+    },
+    {
+      "chunk_index": 124,
+      "start_date": "2025-06-14T23:10:44",
+      "end_date": "2025-06-17T17:29:56",
+      "summary": "The conversation covers various topics including coding challenges, explanations of problem statements, clarifications on specific parts of the code, and team registration for a programming competition. It also includes discussions about the structure of the competition and how to register.",
+      "topics": [
+        "Coding Challenges",
+        "Problem Statements Clarification",
+        "Code Review and Optimization",
+        "Team Registration for Programming Competition"
+      ]
+    },
+    {
+      "chunk_index": 125,
+      "start_date": "2025-06-17T17:34:37",
+      "end_date": "2025-06-17T23:01:59",
+      "summary": "The conversation covers the registration process for ACPC Camp 2026, including questions about email backups, team registrations, and filling out forms. Discussions also include clarifications on how to calculate rankings based on participants' scores and participation in previous competitions.",
+      "topics": [
+        "registration process",
+        "email backup",
+        "team registration",
+        "form filling"
+      ]
+    },
+    {
+      "chunk_index": 126,
+      "start_date": "2025-06-17T23:02:03",
+      "end_date": "2025-06-19T18:47:14",
+      "summary": "The conversation revolves around coding problems, team management, and learning strategies. Specific issues include setting up contact information for teams, understanding binary search, debugging code, and calculating the number of different characters in a string.",
+      "topics": [
+        "coding problems",
+        "team management",
+        "learning strategies",
+        "binary search",
+        "debugging",
+        "calculating unique characters"
+      ]
+    },
+    {
+      "chunk_index": 127,
+      "start_date": "2025-06-19T18:47:23",
+      "end_date": "2025-06-19T23:43:46",
+      "summary": "The conversation discusses a code problem related to removing unwanted characters from an input string and sorting the remaining characters. They also address issues with testing, understanding of conditions, and clarifying requirements for setting up a system.",
+      "topics": [
+        "code issue",
+        "testing",
+        "requirements clarification"
+      ]
+    },
+    {
+      "chunk_index": 128,
+      "start_date": "2025-06-19T23:44:17",
+      "end_date": "2025-06-21T21:53:46",
+      "summary": "The conversation covers various topics including a coding problem, registration for the ACPC Girls competition, and discussions about solving problems. It also includes jokes and reminders regarding the upcoming camp.",
+      "topics": [
+        "coding problem",
+        "ACPC Girls competition registration",
+        "problem-solving discussions"
+      ]
+    },
+    {
+      "chunk_index": 129,
+      "start_date": "2025-06-21T21:54:20",
+      "end_date": "2025-06-22T16:57:34",
+      "summary": "The conversation discusses issues with the website, attempts to solve a problem related to sorting and partitioning numbers, and receives solutions for code challenges. The group also plans to receive problems from coaches and participate in competitions.",
+      "topics": [
+        "website issues",
+        "problem solving",
+        "code challenges",
+        "competition participation"
+      ]
+    },
+    {
+      "chunk_index": 130,
+      "start_date": "2025-06-22T16:58:45",
+      "end_date": "2025-06-22T21:08:55",
+      "summary": "The conversation discusses various problems and solutions, including a coding issue with a specific input/output format, time zone issues, and team participation in the ACM ICPC contest. The main focus is on debugging code and understanding problem constraints.",
+      "topics": [
+        "coding issue",
+        "time zone",
+        "ACM ICPC contest",
+        "problem constraints"
+      ]
+    },
+    {
+      "chunk_index": 131,
+      "start_date": "2025-06-22T21:09:02",
+      "end_date": "2025-06-22T23:22:44",
+      "summary": "The conversation discusses a programming problem related to finding the minimum value of r such that (r / a) * (r / b) >= c. They also discuss time complexity and how it affects solutions, with Walied Hritani eventually solving the problem in under 2 seconds after multiple attempts.",
+      "topics": [
+        "programming problem",
+        "time complexity",
+        "solution optimization"
+      ]
+    },
+    {
+      "chunk_index": 132,
+      "start_date": "2025-06-22T23:22:49",
+      "end_date": "2025-06-23T23:50:33",
+      "summary": "The conversation covers various topics including team registration for the competition, correcting code issues, and clarifying requirements for filling out forms. Discussions also touch on the importance of having a teammate registered for Codeforces to participate in the contest.",
+      "topics": [
+        "Team registration",
+        "Code correction",
+        "Form requirements",
+        "Teammate registration for Codeforces"
+      ]
+    },
+    {
+      "chunk_index": 133,
+      "start_date": "2025-06-24T00:44:39",
+      "end_date": "2025-06-24T02:01:24",
+      "summary": "The conversation discusses a programming problem related to finding the maximum length of a subarray with a sum less than or equal to x. They experimented with different approaches and corrected mistakes, eventually arriving at a working solution.",
+      "topics": [
+        "programming problem",
+        "two-pointer technique",
+        "subarray sum"
+      ]
+    },
+    {
+      "chunk_index": 134,
+      "start_date": "2025-06-24T02:01:45",
+      "end_date": "2025-06-24T02:26:17",
+      "summary": "The conversation discusses the performance and potential participation of different teams in a competition, with particular focus on the standout individuals from the previous years. The group also addresses questions about how to encourage more people to participate without discouraging them.",
+      "topics": [
+        "competition performance",
+        "team participation",
+        "individual achievements"
+      ]
+    },
+    {
+      "chunk_index": 135,
+      "start_date": "2025-06-24T02:26:28",
+      "end_date": "2025-06-24T21:34:27",
+      "summary": "The conversation revolves around the planning and execution of an initiative to prepare for future competitions, including ideas on how to improve performance through various training methods. The group discusses the benefits and challenges of different approaches such as practicing without pressure or focusing solely on competitive rounds.",
+      "topics": [
+        "competition preparation",
+        "training methods",
+        "role of university in skill development"
+      ]
+    },
+    {
+      "chunk_index": 136,
+      "start_date": "2025-06-24T21:34:48",
+      "end_date": "2025-06-25T21:13:12",
+      "summary": "The conversation covers various topics including understanding a problem related to scoring in a competition, clarifying the differences between two codes, and solving problems related to team formations for different matches. It also includes troubleshooting issues with internet connectivity and code execution.",
+      "topics": [
+        "Understanding scoring system",
+        "Code comparison and differences",
+        "Team formation problem",
+        "Internet connectivity issues",
+        "Debugging and fixing code errors"
+      ]
+    },
+    {
+      "chunk_index": 137,
+      "start_date": "2025-06-25T21:13:21",
+      "end_date": "2025-06-27T14:00:09",
+      "summary": "The conversation covers various topics including coding issues, registration for the competition, and coordination with coaches. It also includes jokes about the number of times participants had to register due to technical glitches.",
+      "topics": [
+        "Coding issues",
+        "Registration process",
+        "Coach coordination",
+        "Technical glitches"
+      ]
+    },
+    {
+      "chunk_index": 138,
+      "start_date": "2025-06-27T14:00:16",
+      "end_date": "2025-06-29T11:42:19",
+      "summary": "The conversation covers various topics including understanding of DP problems, debugging issues in code, and clarifying the rules for a coding competition. Discussions also revolve around finding elements in maps and streamlining solutions.",
+      "topics": [
+        "Understanding DP problems",
+        "Debugging Python code",
+        "Clarifying competition rules",
+        "Finding elements in maps",
+        "Streamlining solution process"
+      ]
+    },
+    {
+      "chunk_index": 139,
+      "start_date": "2025-06-29T11:42:31",
+      "end_date": "2025-06-30T20:26:19",
+      "summary": "The conversation covers various topics including code snippets, problem-solving discussions, and learning resources. It also includes a request for solutions to specific problems.",
+      "topics": [
+        "code snippets",
+        "problem-solving discussions",
+        "learning resources",
+        "request for solutions"
+      ]
+    },
+    {
+      "chunk_index": 140,
+      "start_date": "2025-06-30T20:26:28",
+      "end_date": "2025-07-01T17:10:44",
+      "summary": "The conversation primarily discussed the preparation for a coding competition, including solving problems and registering participants. Discussions also revolved around sorting maps based on values and values in maps, as well as handling errors related to registration.",
+      "topics": [
+        "Coding problem discussion",
+        "Map operations (insertion, deletion, sorting)",
+        "Registration process",
+        "Error handling"
+      ]
+    },
+    {
+      "chunk_index": 141,
+      "start_date": "2025-07-01T17:13:37",
+      "end_date": "2025-07-02T01:31:25",
+      "summary": "The conversation covers various aspects of a programming problem, including map usage, handling constraints, and debugging issues. Discussions also touch on the importance of understanding input/output formats and potential solutions for optimization.",
+      "topics": [
+        "map usage",
+        "handling constraints",
+        "debugging issues",
+        "input/output formats",
+        "optimization"
+      ]
+    },
+    {
+      "chunk_index": 142,
+      "start_date": "2025-07-02T01:31:39",
+      "end_date": "2025-07-03T03:41:40",
+      "summary": "The conversation primarily focused on solving a coding problem related to managing server IPs and their associated names. Solutions were provided, including using the `max_element` function for finding the maximum value in a vector, and removing duplicates from a multiset.",
+      "topics": [
+        "C++ programming",
+        "Multiset management",
+        "Vector operations",
+        "Server IP and name association"
+      ]
+    },
+    {
+      "chunk_index": 143,
+      "start_date": "2025-07-03T03:43:46",
+      "end_date": "2025-07-04T14:37:25",
+      "summary": "The conversation primarily focused on clarifying the rules and structure of a coding competition, with discussions about problem-solving strategies, understanding code snippets, and resolving ambiguities in instructions. The participants also discussed the continuation of the coding camp sessions.",
+      "topics": [
+        "coding competition rules",
+        "problem-solving strategies",
+        "code clarification",
+        "coding camp session continuation"
+      ]
+    },
+    {
+      "chunk_index": 144,
+      "start_date": "2025-07-04T14:38:18",
+      "end_date": "2025-07-05T03:05:49",
+      "summary": "The conversation primarily focused on clarifying concepts related to frequency arrays and prefix sums, with discussions about the use of data structures like maps and sets. The group also discussed upcoming events such as a coding competition and an orientation camp.",
+      "topics": [
+        "frequency array",
+        "prefix sum",
+        "data structures",
+        "coding competition",
+        "orientation camp"
+      ]
+    },
+    {
+      "chunk_index": 145,
+      "start_date": "2025-07-05T03:06:40",
+      "end_date": "2025-07-06T23:46:01",
+      "summary": "Walied hritani discusses understanding a problem and seeking clarification on the solution approach, while Bassam Sulaiman suggests using the environment to work on environmental projects. Discussions also revolve around sorting algorithms and number theory problems.",
+      "topics": [
+        "problem understanding",
+        "environmental projects",
+        "sorting algorithms",
+        "number theory"
+      ]
+    },
+    {
+      "chunk_index": 146,
+      "start_date": "2025-07-06T23:48:12",
+      "end_date": "2025-07-08T12:10:09",
+      "summary": "The conversation primarily revolves around coding and problem-solving issues, including discussions about the differences between scanf/printf and cin/cout in C++, understanding of the gcd function, and setting up a set with characters. There are also questions regarding specific programming concepts like using sets and maps.",
+      "topics": [
+        "C++ syntax differences",
+        "gcd function usage",
+        "setting up a set with characters",
+        "using sets and maps"
+      ]
+    },
+    {
+      "chunk_index": 147,
+      "start_date": "2025-07-08T13:27:35",
+      "end_date": "2025-07-09T22:25:46",
+      "summary": "The summary covers a range of topics including coding questions, forum issues, and gym theory session updates. It also includes discussions about the importance of understanding different sorting methods and solving problems related to sequences and series.",
+      "topics": [
+        "Coding Questions",
+        "Forum Issues",
+        "Gym Theory Session Updates",
+        "Sorting Methods",
+        "Sequence and Series Problems"
+      ]
+    },
+    {
+      "chunk_index": 148,
+      "start_date": "2025-07-09T22:42:02",
+      "end_date": "2025-07-11T22:39:50",
+      "summary": "The conversation primarily revolves around code-related issues and discussions about number theory problems, with occasional updates on the camp schedule.",
+      "topics": [
+        "code debugging",
+        "number theory problem solving",
+        "camp schedule"
+      ]
+    },
+    {
+      "chunk_index": 149,
+      "start_date": "2025-07-11T22:40:02",
+      "end_date": "2025-07-12T22:27:33",
+      "summary": "The summary covers discussions about the ACPC Camp 2026 schedule, clarifications on team pairing for the competition, and a request for a number theory lecture. The group also addressed technical issues with their communication platform.",
+      "topics": [
+        "ACPC Camp 2026 schedule",
+        "Team Pairing for Competition",
+        "Number Theory Lecture Request"
+      ]
+    },
+    {
+      "chunk_index": 150,
+      "start_date": "2025-07-12T22:27:50",
+      "end_date": "2025-07-14T01:04:35",
+      "summary": "The summary covers the main points of discussions, including training progress, team achievements, and upcoming tasks for the next competition.",
+      "topics": [
+        "training progress",
+        "team achievements",
+        "upcoming tasks"
+      ]
+    },
+    {
+      "chunk_index": 151,
+      "start_date": "2025-07-14T01:04:56",
+      "end_date": "2025-07-14T13:51:46",
+      "summary": "The conversation covers various topics including Bitmask, Recursion, stack and queue concepts, training sessions, and motivational advice. It also includes jokes and personal anecdotes related to the camp.",
+      "topics": [
+        "Bitmask",
+        "Recursion",
+        "stack and queue",
+        "training sessions",
+        "motivational advice"
+      ]
+    },
+    {
+      "chunk_index": 152,
+      "start_date": "2025-07-14T14:24:14",
+      "end_date": "2025-07-16T21:36:09",
+      "summary": "The conversation covers various topics including team participation, schedule updates, and clarifications on coding problems. It also includes discussions about the tournament structure and solutions to programming issues.",
+      "topics": [
+        "team participation",
+        "schedule updates",
+        "coding problem solutions",
+        "tournament structure"
+      ]
+    },
+    {
+      "chunk_index": 153,
+      "start_date": "2025-07-17T00:32:58",
+      "end_date": "2025-07-18T18:06:36",
+      "summary": "The conversation covers various topics including the upcoming competition, coding challenges, and problem-solving strategies. Discussions include clarifying contest rules, understanding how to solve problems efficiently, and sharing insights on common pitfalls in solving algorithmic problems.",
+      "topics": [
+        "upcoming competition",
+        "coding challenges",
+        "problem-solving strategies"
+      ]
+    },
+    {
+      "chunk_index": 154,
+      "start_date": "2025-07-18T18:06:55",
+      "end_date": "2025-07-19T23:32:46",
+      "summary": "The conversation covers various topics including code submission, problem solving strategies for a programming competition, and discussions on how to approach problems. It also includes troubleshooting issues with the code and clarifying misunderstandings about greedy algorithms.",
+      "topics": [
+        "code submission",
+        "problem-solving strategies",
+        "greedy algorithm",
+        "programming competition"
+      ]
+    },
+    {
+      "chunk_index": 155,
+      "start_date": "2025-07-19T23:32:50",
+      "end_date": "2025-07-23T19:59:11",
+      "summary": "The chat discusses various topics including programming problems, team training sessions, and the structure of daily challenges. It also covers a specific problem related to binary representation in C++.",
+      "topics": [
+        "programming problems",
+        "team training sessions",
+        "daily challenge structure",
+        "binary representation in C++"
+      ]
+    },
+    {
+      "chunk_index": 156,
+      "start_date": "2025-07-23T20:01:20",
+      "end_date": "2025-07-24T00:53:19",
+      "summary": "The conversation covers various topics including the difficulty of solving problems, understanding the concept of rating points in competitions, and suggestions for improving study methods. It also includes discussions about specific coding issues like handling Telegram codes.",
+      "topics": [
+        "rating system in competitions",
+        "understanding problem-solving difficulties",
+        "study method suggestions",
+        "coding issues"
+      ]
+    },
+    {
+      "chunk_index": 157,
+      "start_date": "2025-07-24T00:53:36",
+      "end_date": "2025-07-25T01:13:40",
+      "summary": "The conversation covers various topics including coding problems, training methods, and the importance of practice in improving problem-solving skills. Discussions also touch on the difficulty level of problems and the time required to improve in competitive programming.",
+      "topics": [
+        "Coding problems",
+        "Training methods",
+        "Time required for improvement",
+        "Difficulty levels of problems"
+      ]
+    },
+    {
+      "chunk_index": 158,
+      "start_date": "2025-07-25T01:13:41",
+      "end_date": "2025-07-27T19:00:07",
+      "summary": "The conversation revolves around discussing problem-solving techniques, learning strategies, and clarifying the structure of the DIF (Divine Initiative) competition. The participants also discuss their progress in solving problems and share insights on how to improve.",
+      "topics": [
+        "Problem-solving techniques",
+        "Learning strategies",
+        "DIF competition structure",
+        "Progress in problem-solving"
+      ]
+    },
+    {
+      "chunk_index": 159,
+      "start_date": "2025-07-27T19:00:17",
+      "end_date": "2025-07-31T22:52:36",
+      "summary": "The conversation covers various topics including coding challenges, binary search explanation, and motivational advice for the ACPC Camp participants. It also includes specific solutions to problems.",
+      "topics": [
+        "coding challenges",
+        "binary search explanation",
+        "motivational advice for camp participants"
+      ]
+    },
+    {
+      "chunk_index": 160,
+      "start_date": "2025-07-31T22:52:56",
+      "end_date": "2025-08-10T17:06:17",
+      "summary": "The conversation covers various topics including problem-solving strategies, understanding of algorithms and data structures, and troubleshooting issues with code execution. It also includes discussions about the structure of a programming contest and how to approach problems effectively.",
+      "topics": [
+        "problem-solving strategies",
+        "understanding of algorithms and data structures",
+        "code execution issues",
+        "programming contest structure"
+      ]
+    },
+    {
+      "chunk_index": 161,
+      "start_date": "2025-08-10T17:06:55",
+      "end_date": "2025-08-19T01:58:43",
+      "summary": "The conversation covers various topics including a coding problem, discussions about the competition structure, and technical issues with the website. It also includes a question about graph theory.",
+      "topics": [
+        "coding problem",
+        "competition structure",
+        "website technical issues",
+        "graph theory"
+      ]
+    },
+    {
+      "chunk_index": 162,
+      "start_date": "2025-08-19T01:59:07",
+      "end_date": "2025-08-21T19:52:31",
+      "summary": "The conversation covers various topics including code issues, memory flushing, and team training. It also includes discussions on the differences between different programming environments like MB and MBD.",
+      "topics": [
+        "code issues",
+        "memory flushing",
+        "team training",
+        "programming environment differences"
+      ]
+    },
+    {
+      "chunk_index": 163,
+      "start_date": "2025-08-21T19:52:44",
+      "end_date": "2025-09-04T18:59:12",
+      "summary": "The conversation covers various topics related to the ACM ICPC camp, including contest problems, solutions, and discussions about input/output formats. There are also questions regarding contest preparation, number theory concepts, and clarifications on specific contest rules.",
+      "topics": [
+        "Contest problem solving",
+        "Input/Output format clarification",
+        "Number Theory concepts",
+        "Contest preparation"
+      ]
+    },
+    {
+      "chunk_index": 164,
+      "start_date": "2025-09-04T18:59:23",
+      "end_date": "2025-09-07T20:06:47",
+      "summary": "The conversation covers various problem-solving approaches for a programming challenge, including sorting and searching algorithms. Discussions also touch on the complexity of solutions and how to optimize them.",
+      "topics": [
+        "sorting algorithm",
+        "searching algorithm",
+        "algorithm complexity"
+      ]
+    },
+    {
+      "chunk_index": 165,
+      "start_date": "2025-09-07T20:07:20",
+      "end_date": "2025-09-09T17:11:36",
+      "summary": "The discussion primarily revolves around the problem D of ACPC Camp 2026, which was unrated due to a missing condition in the statement. The team discusses various aspects including debugging issues, understanding constraints, and solving problems efficiently. They also discuss future plans for the camp like improving competition levels and providing assistance during problem-solving sessions.",
+      "topics": [
+        "Problem D of ACPC Camp 2026",
+        "Debugging issues in Problem D",
+        "Understanding constraints in Problem D",
+        "Efficient problem solving techniques",
+        "Future plans for ACPC Camp"
+      ]
+    },
+    {
+      "chunk_index": 166,
+      "start_date": "2025-09-09T17:15:49",
+      "end_date": "2025-09-10T13:33:01",
+      "summary": "The conversation covers various topics including a discussion on how to solve the valley problem, sorting arrays in C++, understanding floating-point numbers and their representation, learning about the sqrt function for handling large numbers, and jokes related to language learning. The main focus is on solving algorithmic problems and understanding mathematical concepts.",
+      "topics": [
+        "algorithmic problem solving",
+        "C++ array manipulation",
+        "floating point numbers",
+        "sqrt function",
+        "language learning"
+      ]
+    },
+    {
+      "chunk_index": 167,
+      "start_date": "2025-09-10T13:33:38",
+      "end_date": "2025-09-10T23:10:54",
+      "summary": "The conversation primarily discussed problem-solving strategies for a programming challenge, with participants sharing their approaches and solutions. They also addressed questions about the problem statement and provided explanations.",
+      "topics": [
+        "programming challenge",
+        "problem solving strategies",
+        "problem statement clarification"
+      ]
+    },
+    {
+      "chunk_index": 168,
+      "start_date": "2025-09-10T23:11:33",
+      "end_date": "2025-09-11T22:11:38",
+      "summary": "The conversation covers various topics including coding practices, code reviews, and algorithmic challenges. It also includes a discussion on the importance of comments in code and how to effectively use STL functions.",
+      "topics": [
+        "coding practices",
+        "code reviews",
+        "algorithmic challenges",
+        "importance of comments",
+        "STL function usage"
+      ]
+    },
+    {
+      "chunk_index": 169,
+      "start_date": "2025-09-11T22:12:00",
+      "end_date": "2025-09-12T23:56:11",
+      "summary": "The conversation primarily revolves around explaining and solving problems related to number theory, including divisibility rules, inclusion-exclusion principle, and combinatorics. Discussions also touch on the application of set operations such as union and intersection in problem-solving.",
+      "topics": [
+        "number theory",
+        "divisibility rules",
+        "inclusion-exclusion principle",
+        "combinatorics",
+        "set operations"
+      ]
+    },
+    {
+      "chunk_index": 170,
+      "start_date": "2025-09-13T21:27:04",
+      "end_date": "2025-09-17T13:09:28",
+      "summary": "The conversation covers various topics including algorithm problems, coding challenges, and discussions about the structure of a course. It also includes requests for explanations on specific concepts like frequency arrays and summing.",
+      "topics": [
+        "algorithm problems",
+        "coding challenges",
+        "course structure explanation",
+        "frequency array concept",
+        "prefix sum concept"
+      ]
+    },
+    {
+      "chunk_index": 171,
+      "start_date": "2025-09-17T13:09:35",
+      "end_date": "2025-09-17T14:47:39",
+      "summary": "The conversation covers various topics including the difficulty level of problems, team dynamics, and specific coding challenges. It also includes jokes and expressions of frustration.",
+      "topics": [
+        "problem difficulty",
+        "team performance",
+        "coding challenges",
+        "jokes"
+      ]
+    },
+    {
+      "chunk_index": 172,
+      "start_date": "2025-09-17T14:49:05",
+      "end_date": "2025-09-19T20:54:29",
+      "summary": "The conversation primarily discusses coding problems and the upcoming ACM camp. Topics include code corrections, problem-solving strategies, and discussions about the difficulty level of problems in different rounds.",
+      "topics": [
+        "coding problems",
+        "problem solving strategies",
+        "ACM camp preparations",
+        "difficulty levels of problems"
+      ]
+    },
+    {
+      "chunk_index": 173,
+      "start_date": "2025-09-19T20:55:00",
+      "end_date": "2025-09-22T19:54:33",
+      "summary": "The conversation covers various topics including game theory, understanding found variable in code, resolving issues with recursion and AI solutions for problems. Discussions also touch on the structure of loops and conditions in programming.",
+      "topics": [
+        "Game Theory",
+        "Found Variable in Code",
+        "Recursion Issues",
+        "AI Solutions",
+        "Loops and Conditions"
+      ]
+    },
+    {
+      "chunk_index": 174,
+      "start_date": "2025-09-22T19:54:41",
+      "end_date": "2025-09-25T20:34:47",
+      "summary": "The conversation covered various topics including coding problems, training schedules, and motivational discussions. It also included troubleshooting issues with code compilation errors and understanding function names.",
+      "topics": [
+        "coding problems",
+        "training schedules",
+        "motivational discussions",
+        "code compilation errors",
+        "function name understanding"
+      ]
+    },
+    {
+      "chunk_index": 175,
+      "start_date": "2025-09-25T20:35:34",
+      "end_date": "2025-09-26T22:56:47",
+      "summary": "The conversation covers various topics including the completion of the coding camp, solving problems, and planning for future camps. It also includes discussions about the structure of the upcoming programming challenges.",
+      "topics": [
+        "coding camp progress",
+        "problem-solving strategies",
+        "future camp planning"
+      ]
+    },
+    {
+      "chunk_index": 176,
+      "start_date": "2025-09-26T23:00:41",
+      "end_date": "2025-09-28T19:20:01",
+      "summary": "The conversation covers the logistics of ACPC Camp 2026, including room and equipment arrangements, schedule updates, and clarifications on problem-solving techniques. Discussions also touched on how to handle students who missed a session.",
+      "topics": [
+        "Room and Equipment Arrangements",
+        "Schedule Updates",
+        "Problem-Solving Techniques",
+        "Handling Missed Sessions"
+      ]
+    },
+    {
+      "chunk_index": 177,
+      "start_date": "2025-09-28T19:23:05",
+      "end_date": "2025-09-29T19:55:55",
+      "summary": "The conversation covers discussions about upcoming coding problems, clarifications on code execution issues, and the need to share solutions. The group also discusses the format of questions and answers for testing purposes.",
+      "topics": [
+        "Coding Problems",
+        "Code Execution Issues",
+        "Testing Format"
+      ]
+    },
+    {
+      "chunk_index": 178,
+      "start_date": "2025-09-29T19:56:22",
+      "end_date": "2025-09-30T19:59:48",
+      "summary": "The conversation covers issues related to code implementation, understanding of conditions and loops in C++, and clarifications on the structure of the problem. The main focus is on fixing a submission that was marked as incorrect for test case 1.",
+      "topics": [
+        "C++ coding",
+        "Conditionals",
+        "Loops",
+        "Submission issues"
+      ]
+    },
+    {
+      "chunk_index": 179,
+      "start_date": "2025-09-30T20:00:04",
+      "end_date": "2025-10-01T00:14:18",
+      "summary": "The conversation covers various topics including persistent data structures, a discussion on the effectiveness of different learning resources for the ACPC camp, and solving algorithmic problems. The group also discusses code snippets and clarifies misunderstandings about certain concepts.",
+      "topics": [
+        "persistent data structures",
+        "learning resources for ACPC camp",
+        "algorithmic problem-solving"
+      ]
+    },
+    {
+      "chunk_index": 180,
+      "start_date": "2025-10-01T00:14:26",
+      "end_date": "2025-10-01T20:20:34",
+      "summary": "The team discusses a programming problem where the goal is to calculate the number of ways to distribute n items among k containers. They also address issues with code submission and verification, as well as learning how to submit solutions on platforms like Codeforces.",
+      "topics": [
+        "programming problem",
+        "code submission",
+        "verification process"
+      ]
+    },
+    {
+      "chunk_index": 181,
+      "start_date": "2025-10-01T20:20:46",
+      "end_date": "2025-10-02T00:15:23",
+      "summary": "The conversation primarily discussed a coding problem related to counting occurrences of elements in one array within another. The team also briefly touched on time management and optimization issues with multiple processes.",
+      "topics": [
+        "coding problem",
+        "time management"
+      ]
+    },
+    {
+      "chunk_index": 182,
+      "start_date": "2025-10-02T00:18:21",
+      "end_date": "2025-10-02T19:30:36",
+      "summary": "The conversation covers various topics including coding problems, site issues, and personal updates. It also includes a discussion about the ++ operator in programming.",
+      "topics": [
+        "coding problems",
+        "site issues",
+        "personal updates",
+        "++ operator"
+      ]
+    },
+    {
+      "chunk_index": 183,
+      "start_date": "2025-10-02T19:31:27",
+      "end_date": "2025-10-02T23:53:43",
+      "summary": "The conversation covered various topics including a discussion on the solution for a problem related to sorting and checking conditions in an array. The group also discussed about the structure of the website, handling of questions, and the upcoming session.",
+      "topics": [
+        "solution for sorting problem",
+        "array condition checking",
+        "website structure",
+        "question handling",
+        "upcoming session"
+      ]
+    },
+    {
+      "chunk_index": 184,
+      "start_date": "2025-10-02T23:53:56",
+      "end_date": "2025-10-03T21:04:26",
+      "summary": "The conversation primarily discussed the rules and clarifications for a programming contest, including issues with submission errors and algorithmic problems. The team also addressed questions about the structure of input/output in their code and clarified the logic behind certain operations on numbers.",
+      "topics": [
+        "programming contest rules",
+        "code submissions",
+        "algorithm clarification"
+      ]
+    },
+    {
+      "chunk_index": 185,
+      "start_date": "2025-10-03T21:04:45",
+      "end_date": "2025-10-04T01:27:49",
+      "summary": "The conversation discusses issues with a code snippet, clarifies the logic of counting pairs and singles in a sequence, and resolves questions about test cases for a coding competition. The team also plans to attend an ACPC Camp 2026 camp.",
+      "topics": [
+        "code snippet troubleshooting",
+        "sequence analysis",
+        "coding competition test case understanding"
+      ]
+    },
+    {
+      "chunk_index": 186,
+      "start_date": "2025-10-04T01:28:05",
+      "end_date": "2025-10-04T17:36:55",
+      "summary": "The conversation covers various topics including a coding problem, understanding of programming concepts like arrays and loops, and clarifications on language rules. The main focus is on solving the array manipulation problem.",
+      "topics": [
+        "coding problem",
+        "array manipulation",
+        "programming concepts",
+        "language rules"
+      ]
+    },
+    {
+      "chunk_index": 187,
+      "start_date": "2025-10-04T17:38:02",
+      "end_date": "2025-10-05T01:33:00",
+      "summary": "The discussion revolves around a problem of removing repeated characters from a string and determining if the number of unique characters is odd or even. The team discusses various approaches including using loops, conditionals, and functions to solve the problem.",
+      "topics": [
+        "string manipulation",
+        "character frequency",
+        "unique character count"
+      ]
+    },
+    {
+      "chunk_index": 188,
+      "start_date": "2025-10-05T01:34:11",
+      "end_date": "2025-10-05T17:36:11",
+      "summary": "The chat discusses various topics related to problem solving and training, including the difficulty of problems, strategies for learning new methods, and specific coding challenges. It also covers a discussion on how to approach questions about the range of solutions in a given set.",
+      "topics": [
+        "problem difficulty",
+        "learning new problem-solving techniques",
+        "coding challenges",
+        "approaching questions about solution ranges"
+      ]
+    },
+    {
+      "chunk_index": 189,
+      "start_date": "2025-10-05T17:36:57",
+      "end_date": "2025-10-06T01:26:27",
+      "summary": "The summary covers the ongoing discussion about solving a problem related to sequences and subarrays, with participants discussing different approaches and clarifying doubts.",
+      "topics": [
+        "number theory",
+        "sequence problems",
+        "subarray problems"
+      ]
+    },
+    {
+      "chunk_index": 190,
+      "start_date": "2025-10-06T01:27:03",
+      "end_date": "2025-10-06T19:26:41",
+      "summary": "The conversation covers various topics including code submission, explanations of technical terms like prefix sum and frequency array, and discussions about the difference between break and return statements. There are also questions on how to print the smallest number not present in an array and clarifications on vector usage.",
+      "topics": [
+        "code submission",
+        "technical term explanations",
+        "break vs return",
+        "frequency array",
+        "vector usage"
+      ]
+    },
+    {
+      "chunk_index": 191,
+      "start_date": "2025-10-06T19:30:31",
+      "end_date": "2025-10-07T18:30:04",
+      "summary": "The conversation covers various topics including video lectures, coding problems, and the upcoming camp. Discussions also include troubleshooting issues with code snippets and clarifying concepts related to programming.",
+      "topics": [
+        "video lectures",
+        "coding problems",
+        "upcoming camp",
+        "code troubleshooting"
+      ]
+    },
+    {
+      "chunk_index": 192,
+      "start_date": "2025-10-07T18:30:32",
+      "end_date": "2025-10-08T21:13:40",
+      "summary": "The conversation covers various topics including upcoming sessions, a coding problem, and the need for explanations on STL (Standard Template Library) concepts. The main focus is on solving problems related to data structures.",
+      "topics": [
+        "upcoming sessions",
+        "coding problem",
+        "STL explanations",
+        "data structure"
+      ]
+    },
+    {
+      "chunk_index": 193,
+      "start_date": "2025-10-08T21:21:02",
+      "end_date": "2025-10-09T16:38:18",
+      "summary": "The conversation covered various topics including code debugging, understanding problem constraints, and discussing solutions for specific problems. Discussions also included clarifications on the purpose of certain functions and variables in the code.",
+      "topics": [
+        "Code debugging",
+        "Understanding problem constraints",
+        "Discussing solutions for specific problems",
+        "Clarifying function and variable purposes"
+      ]
+    },
+    {
+      "chunk_index": 194,
+      "start_date": "2025-10-09T16:58:26",
+      "end_date": "2025-10-10T22:09:09",
+      "summary": "The conversation discusses the upcoming contest and clarifies questions about registration, while also addressing a coding issue related to sorting an array.",
+      "topics": [
+        "contest details",
+        "registration process",
+        "coding issues"
+      ]
+    },
+    {
+      "chunk_index": 195,
+      "start_date": "2025-10-10T22:15:21",
+      "end_date": "2025-10-12T21:21:07",
+      "summary": "The conversation covers various topics including coding challenges, team introductions, and clarifications on specific questions. It also includes discussions about the upcoming sprint planning and action items for resolving issues related to test cases and code execution.",
+      "topics": [
+        "Coding Challenges",
+        "Team Introductions",
+        "Clarifying Specific Questions",
+        "Upcoming Sprint Planning"
+      ]
+    },
+    {
+      "chunk_index": 196,
+      "start_date": "2025-10-12T21:21:33",
+      "end_date": "2025-10-13T21:18:50",
+      "summary": "The conversation primarily focused on discussing solutions for a problem related to counting bits and debugging code. Discussions also included clarifications about language features like bitwise operations, loops, and input/output methods.",
+      "topics": [
+        "bit manipulation",
+        "debugging",
+        "input/output methods",
+        "loops"
+      ]
+    },
+    {
+      "chunk_index": 197,
+      "start_date": "2025-10-13T21:19:15",
+      "end_date": "2025-10-15T18:24:43",
+      "summary": "The conversation discusses various problems related to arrays and multiset operations, with participants debating solutions and clarifying requirements for the problem at hand.",
+      "topics": [
+        "array subarrays",
+        "multiset operations",
+        "two pointers technique"
+      ]
+    },
+    {
+      "chunk_index": 198,
+      "start_date": "2025-10-15T18:25:15",
+      "end_date": "2025-10-16T22:38:08",
+      "summary": "The conversation primarily discussed the problem of distributing elements into multisets such that they are equal. They also addressed questions about the structure and constraints of the problem, as well as specific code implementation issues.",
+      "topics": [
+        "problem distribution",
+        "multiset equality",
+        "code implementation"
+      ]
+    },
+    {
+      "chunk_index": 199,
+      "start_date": "2025-10-16T22:38:20",
+      "end_date": "2025-10-18T23:19:20",
+      "summary": "The conversation primarily discussed issues with a code snippet for solving a problem related to counting occurrences of numbers in an array. They also briefly touched on the concept of coordinate compression and provided solutions for specific problems.",
+      "topics": [
+        "code debugging",
+        "coordinate compression",
+        "algorithm design"
+      ]
+    },
+    {
+      "chunk_index": 200,
+      "start_date": "2025-10-18T23:21:01",
+      "end_date": "2025-10-19T19:26:01",
+      "summary": "The conversation discusses various topics related to programming, including solving a specific problem and attending an upcoming coding competition. Discussions also touch on the importance of perseverance in learning and understanding complex concepts.",
+      "topics": [
+        "Solving a specific algorithmic problem",
+        "Upcoming coding competition",
+        "Importance of perseverance in learning"
+      ]
+    },
+    {
+      "chunk_index": 201,
+      "start_date": "2025-10-19T19:26:03",
+      "end_date": "2025-10-20T22:32:40",
+      "summary": "The conversation primarily discussed solutions for a programming problem, including debugging issues and understanding data structures like sets. Discussions also touched on the importance of learning from lectures and resources provided by instructors.",
+      "topics": [
+        "programming problem solution",
+        "debugging",
+        "data structures",
+        "learning from lectures"
+      ]
+    },
+    {
+      "chunk_index": 202,
+      "start_date": "2025-10-20T22:35:07",
+      "end_date": "2025-10-24T17:11:11",
+      "summary": "The conversation covers various topics including coding challenges, jokes, and discussions about the ACPC Camp. It also includes a discussion on how to sort elements in a map with custom logic.",
+      "topics": [
+        "Coding challenges",
+        "Jokes and humor",
+        "ACPC Camp planning and logistics",
+        "Sorting elements in a map"
+      ]
+    },
+    {
+      "chunk_index": 203,
+      "start_date": "2025-10-24T17:11:25",
+      "end_date": "2025-10-25T01:43:22",
+      "summary": "The conversation primarily discusses various topics related to the ACPC Camp, including training schedules, problem sets, and challenges faced by participants. It also touches on codeforces issues and personal experiences of participants.",
+      "topics": [
+        "training schedules",
+        "problem sets",
+        "codeforces issues",
+        "personal experiences"
+      ]
+    },
+    {
+      "chunk_index": 204,
+      "start_date": "2025-10-25T01:43:54",
+      "end_date": "2025-10-26T19:33:57",
+      "summary": "The summary covers the discussion about problem solutions, code debugging, and team collaboration for upcoming competitions. It also includes a reminder to participate in future camps and sessions.",
+      "topics": [
+        "Problem Solutions",
+        "Code Debugging",
+        "Team Collaboration",
+        "Future Camps and Sessions"
+      ]
+    },
+    {
+      "chunk_index": 205,
+      "start_date": "2025-10-26T20:00:29",
+      "end_date": "2025-10-28T13:36:25",
+      "summary": "The conversation primarily focused on preparations for the Codeforces problem solving session, discussions about the upcoming training sessions and GYM, clarifications on implementation and constructive problems, and a discussion about the grading of test cases. There were also some jokes and informal chats.",
+      "topics": [
+        "Codeforces problem solving",
+        "Training sessions",
+        "Implementation and Constructive problems",
+        "Gym preparation",
+        "Test case grading"
+      ]
+    },
+    {
+      "chunk_index": 206,
+      "start_date": "2025-10-28T14:45:36",
+      "end_date": "2025-10-28T20:25:30",
+      "summary": "The discussion revolves around the ACPC Camp's structure, a coding problem related to counting numbers with even and odd digits in a sequence, and various approaches to solving it. The group also discusses site management issues and jokes about the difficulty of some problems.",
+      "topics": [
+        "ACPC Camp structure",
+        "Coding problem: Counting Even/Odd Digits Sequence",
+        "Site Management"
+      ]
+    },
+    {
+      "chunk_index": 207,
+      "start_date": "2025-10-28T20:25:31",
+      "end_date": "2025-10-29T22:22:58",
+      "summary": "The discussion focused on clarifying the problem statement and constraints for a coding challenge. Topics included understanding of input/output requirements, array usage, string manipulation, and handling edge cases in code execution.",
+      "topics": [
+        "problem statement clarification",
+        "input/output requirements",
+        "array usage",
+        "string manipulation",
+        "edge case handling"
+      ]
+    },
+    {
+      "chunk_index": 208,
+      "start_date": "2025-10-29T22:22:59",
+      "end_date": "2025-10-31T20:07:36",
+      "summary": "The conversation covers various topics including a coding problem, team members discussing the structure of strings and their solutions, clarifying questions about programming problems, and technical issues with the website. The main focus is on solving a specific coding challenge related to string manipulation.",
+      "topics": [
+        "Coding problem D. Alice, Bob and Candies",
+        "String manipulation problem",
+        "Clarifying questions about programming problems",
+        "Technical issues with the website"
+      ]
+    },
+    {
+      "chunk_index": 209,
+      "start_date": "2025-10-31T20:08:01",
+      "end_date": "2025-11-01T11:16:48",
+      "summary": "The conversation discusses issues with a code implementation and attempts to resolve them. The main focus is on optimizing the solution for a problem involving elements in strings, reducing time complexity from n^3 to n.",
+      "topics": [
+        "code optimization",
+        "string manipulation",
+        "time complexity reduction"
+      ]
+    },
+    {
+      "chunk_index": 210,
+      "start_date": "2025-11-01T11:17:26",
+      "end_date": "2025-11-03T20:31:36",
+      "summary": "The conversation primarily discusses coding problems and solutions, with a focus on Binary Search, Two Pointers, and other algorithmic concepts. There are also discussions about accessing problem solutions and setting up accounts for future use.",
+      "topics": [
+        "Binary Search",
+        "Two Pointers",
+        "Algorithmic Concepts",
+        "Problem Solutions Access",
+        "Account Setup"
+      ]
+    },
+    {
+      "chunk_index": 211,
+      "start_date": "2025-11-03T20:35:09",
+      "end_date": "2025-11-05T17:56:54",
+      "summary": "The conversation covers various topics including the correctness of a solution for a bipartite graph problem, debugging issues with testing cases, and discussions about improving learning efficiency. It also includes jokes and updates on channel names.",
+      "topics": [
+        "bipartite graph problem",
+        "debugging issues",
+        "improving learning efficiency"
+      ]
+    },
+    {
+      "chunk_index": 212,
+      "start_date": "2025-11-05T17:57:30",
+      "end_date": "2025-11-06T21:52:09",
+      "summary": "The conversation covers various topics including language learning, contest preparation, and specific problem-solving questions. It also includes discussions about the structure of solutions in contests.",
+      "topics": [
+        "language learning",
+        "contest preparation",
+        "problem solving",
+        "solution structure"
+      ]
+    },
+    {
+      "chunk_index": 213,
+      "start_date": "2025-11-06T21:52:23",
+      "end_date": "2025-11-08T10:58:09",
+      "summary": "The conversation discusses various topics related to the ACPC Camp, including a discussion on job opportunities in companies like Noon, clarifying information about the Information Engineering major, and resolving questions regarding problem sets. There are also discussions on how to prepare for programming competitions and suggestions for resources.",
+      "topics": [
+        "Job Opportunities",
+        "Camp Information",
+        "Programming Competition Preparation",
+        "Major Clarification"
+      ]
+    },
+    {
+      "chunk_index": 214,
+      "start_date": "2025-11-08T10:58:21",
+      "end_date": "2025-11-08T13:18:37",
+      "summary": "Low-signal or casual discussion between 6 participants from 2025-11-08T10:58:21 to 2025-11-08T13:18:37. Most active senders: 𝙼𝚞𝚑𝚊𝚖𝚖𝚎𝚍_𝙰𝚕𝚖𝚞𝚑𝚊𝚖𝚖𝚎𝚍 (79), Mohammed Hassan Sawaha (36), 𝑺𝒊𝒅𝒓𝒂 𝑨𝒍 𝑯𝒂𝒋𝒊 (34).",
+      "topics": [
+        "general discussion"
+      ]
+    },
+    {
+      "chunk_index": 215,
+      "start_date": "2025-11-08T13:19:26",
+      "end_date": "2025-11-08T23:09:13",
+      "summary": "The conversation primarily focused on discussing and solving a programming problem related to calculating the cost of moving values from leaves to root in a tree structure. The group discussed various aspects including input handling, debugging, and algorithmic solutions.",
+      "topics": [
+        "programming problem",
+        "tree structure",
+        "input handling",
+        "debugging",
+        "algorithmic solutions"
+      ]
+    },
+    {
+      "chunk_index": 216,
+      "start_date": "2025-11-08T23:09:22",
+      "end_date": "2025-11-08T23:51:19",
+      "summary": "The group discussed a problem related to distributing values among nodes in a tree structure. Walied presented his solution, but it had issues. The team provided guidance and eventually arrived at a corrected approach.",
+      "topics": [
+        "Tree node value distribution",
+        "DFS traversal",
+        "Two pointer technique"
+      ]
+    },
+    {
+      "chunk_index": 217,
+      "start_date": "2025-11-08T23:51:24",
+      "end_date": "2025-11-09T17:00:56",
+      "summary": "The conversation discusses a code problem and its solution, with participants providing explanations and corrections. The group also shares tips on learning English through AI interactions and solving programming problems.",
+      "topics": [
+        "AI interaction for learning",
+        "Programming problem discussion",
+        "Subsequence vs Subsegment in arrays"
+      ]
+    },
+    {
+      "chunk_index": 218,
+      "start_date": "2025-11-09T17:00:59",
+      "end_date": "2025-11-09T21:08:49",
+      "summary": "The conversation covers understanding of empty arrays, discussing the proof for a sequence formula, and various discussions on programming topics including problem-solving skills, coding languages, and resources for learning algorithmic problems.",
+      "topics": [
+        "Understanding of empty arrays",
+        "Proof discussion for sequence formula",
+        "Programming language usage",
+        "Problem-solving skills in programming",
+        "Learning resources for algorithmic problems"
+      ]
+    },
+    {
+      "chunk_index": 219,
+      "start_date": "2025-11-09T21:08:53",
+      "end_date": "2025-11-10T00:28:31",
+      "summary": "The conversation covers tips on solving problems, learning programming languages, and discussing the structure of a code problem. They also address questions about CSES problems and edge cases.",
+      "topics": [
+        "problem-solving tips",
+        "programming language learning",
+        "code problem structure",
+        "CSES problems",
+        "edge cases"
+      ]
+    },
+    {
+      "chunk_index": 220,
+      "start_date": "2025-11-10T00:30:59",
+      "end_date": "2025-11-10T14:13:12",
+      "summary": "Low-signal or casual discussion between 14 participants from 2025-11-10T00:30:59 to 2025-11-10T14:13:12. Most active senders: 𝙼𝚞𝚑𝚊𝚖𝚖𝚎𝚍_𝙰𝚕𝚖𝚞𝚑𝚊𝚖𝚖𝚎𝚍 (67), 𝑺𝒊𝒅𝒓𝒂 𝑨𝒍 𝑯𝒂𝒋𝒊 (29), Mohamad slebi (21).",
+      "topics": [
+        "general discussion"
+      ]
+    },
+    {
+      "chunk_index": 221,
+      "start_date": "2025-11-10T14:14:10",
+      "end_date": "2025-11-11T07:54:25",
+      "summary": "The discussion revolves around a code problem where the participant is trying to calculate the sum of numbers from 1 to x. The main issue identified was that the loop condition and variable usage were incorrect, leading to time limit exceed errors for large inputs.",
+      "topics": [
+        "code optimization",
+        "time limit exceed error"
+      ]
+    },
+    {
+      "chunk_index": 222,
+      "start_date": "2025-11-11T07:54:30",
+      "end_date": "2025-11-11T20:42:33",
+      "summary": "The discussion revolves around optimizing a code to handle large inputs within the time limit. They explore different approaches including mathematical formulas and optimizations, such as using loops or functions like `std::accumulate` in C++.",
+      "topics": [
+        "time limits",
+        "code optimization",
+        "mathematical formulas",
+        "C++ functions"
+      ]
+    },
+    {
+      "chunk_index": 223,
+      "start_date": "2025-11-11T20:42:45",
+      "end_date": "2025-11-11T21:04:44",
+      "summary": "The discussion revolved around the optimal study schedule for competitive programming, including the importance of rest and the impact on performance. They also touched upon the role of mentors and the value of a CP certificate.",
+      "topics": [
+        "study schedule",
+        "rest",
+        "performance impact",
+        "mentorship",
+        "CP certificate"
+      ]
+    },
+    {
+      "chunk_index": 224,
+      "start_date": "2025-11-11T21:04:44",
+      "end_date": "2025-11-13T20:37:23",
+      "summary": "The conversation covers discussions about the difficulty of admission tests, congratulates on successful admissions, and provides advice for preparing for programming competitions. It also includes a discussion about arrays and subarray sums.",
+      "topics": [
+        "admission test difficulty",
+        "programming competition preparation",
+        "arrays and subarray sum problem"
+      ]
+    },
+    {
+      "chunk_index": 225,
+      "start_date": "2025-11-13T20:37:32",
+      "end_date": "2025-11-14T15:49:12",
+      "summary": "The conversation covers various topics including code snippets, problem-solving strategies for a competitive programming contest, and clarifications on language basics. Discussions also touch upon debugging issues, understanding of specific problems like greedy algorithms, and the importance of documentation in solutions.",
+      "topics": [
+        "code snippets",
+        "problem-solving strategies",
+        "debugging issues",
+        "greedy algorithm clarification",
+        "language basics"
+      ]
+    },
+    {
+      "chunk_index": 226,
+      "start_date": "2025-11-14T15:49:54",
+      "end_date": "2025-11-16T19:45:47",
+      "summary": "The summary captures the discussion about coding problems, solutions, and clarifications regarding specific code snippets. It also includes a question on whether C programming contest questions were solved using dynamic programming.",
+      "topics": [
+        "coding problems",
+        "solutions",
+        "code snippets",
+        "dynamic programming"
+      ]
+    },
+    {
+      "chunk_index": 227,
+      "start_date": "2025-11-16T19:45:58",
+      "end_date": "2025-11-17T16:48:52",
+      "summary": "The conversation primarily discusses solutions to programming problems, with a focus on the complexity and efficiency of algorithms. It also touches upon debugging issues and learning resources.",
+      "topics": [
+        "programming problem solving",
+        "algorithm efficiency",
+        "debugging",
+        "learning resources"
+      ]
+    },
+    {
+      "chunk_index": 228,
+      "start_date": "2025-11-17T16:50:14",
+      "end_date": "2025-11-18T19:30:01",
+      "summary": "The conversation primarily discusses issues with Codeforces services, including a postponed competition due to Cloudflare disruptions. The group also addresses the upcoming LGBTQ+ inclusion in Codeforces and updates on website status.",
+      "topics": [
+        "Codeforces service issues",
+        "Codeforces competition postponement",
+        "LGBTQ+ inclusion"
+      ]
+    },
+    {
+      "chunk_index": 229,
+      "start_date": "2025-11-18T19:55:45",
+      "end_date": "2025-11-21T00:17:46",
+      "summary": "The chat discusses various topics including a coding problem, the setup of a programming competition, and discussions about code solutions. It also includes a discussion on how to handle repeated elements in an array.",
+      "topics": [
+        "Coding problem",
+        "Programming competition setup",
+        "Code solutions",
+        "Handling repeated elements in arrays"
+      ]
+    },
+    {
+      "chunk_index": 230,
+      "start_date": "2025-11-21T00:17:55",
+      "end_date": "2025-11-22T23:07:30",
+      "summary": "The conversation discusses solutions to a programming problem involving arrays and pointers. It includes discussions on the logic of the solution, debugging issues with code, and clarifications about input types.",
+      "topics": [
+        "programming problem",
+        "debugging",
+        "input validation"
+      ]
+    },
+    {
+      "chunk_index": 231,
+      "start_date": "2025-11-22T23:10:24",
+      "end_date": "2025-11-24T09:30:02",
+      "summary": "The conversation covered various topics including code challenges, algorithmic problems, and discussions about the constraints of sharing solutions. They also discussed the handling of duplicate submissions and account usage policies.",
+      "topics": [
+        "code challenges",
+        "algorithmic problems",
+        "solution sharing policies",
+        "duplicate submission handling"
+      ]
+    },
+    {
+      "chunk_index": 232,
+      "start_date": "2025-11-24T09:32:39",
+      "end_date": "2025-11-24T21:26:50",
+      "summary": "The conversation primarily discussed issues with the coding platform, including login problems and solution submission issues. It also touched on the importance of understanding problem-solving techniques and practice sessions for preparing for a programming competition.",
+      "topics": [
+        "coding platform issues",
+        "problem solving techniques",
+        "practice sessions"
+      ]
+    },
+    {
+      "chunk_index": 233,
+      "start_date": "2025-11-24T21:27:03",
+      "end_date": "2025-11-26T17:21:29",
+      "summary": "The conversation covers various topics including coding problems, solutions, and clarifications. It also discusses the schedule of upcoming sessions and the availability for a new camp.",
+      "topics": [
+        "Coding Problems",
+        "Solutions and Clarifications",
+        "Session Schedule",
+        "New Camp Availability"
+      ]
+    },
+    {
+      "chunk_index": 234,
+      "start_date": "2025-11-26T17:22:25",
+      "end_date": "2025-11-27T22:25:48",
+      "summary": "The conversation discusses the upcoming coding camp, code challenges, and solutions. It also covers technical questions related to algorithms and data structures.",
+      "topics": [
+        "coding camp",
+        "code challenges",
+        "algorithmic problems",
+        "data structure solutions"
+      ]
+    },
+    {
+      "chunk_index": 235,
+      "start_date": "2025-11-27T22:27:01",
+      "end_date": "2025-11-28T18:44:01",
+      "summary": "The conversation covers various topics including a code problem, discussions about algorithms and programming concepts, and clarifications on the scope of knowledge required for the competition. The main focus is on improving the provided code solution to handle time complexity issues.",
+      "topics": [
+        "Code optimization",
+        "Algorithm understanding",
+        "Programming language proficiency",
+        "Time complexity in solutions"
+      ]
+    },
+    {
+      "chunk_index": 236,
+      "start_date": "2025-11-28T18:44:42",
+      "end_date": "2025-11-29T21:57:25",
+      "summary": "The conversation covers learning C++, discussing the difficulty of problems, and seeking solutions for programming challenges. It also includes plans for future sessions and clarifications on specific coding issues.",
+      "topics": [
+        "C++ programming",
+        "problem-solving strategies",
+        "coding challenges"
+      ]
+    },
+    {
+      "chunk_index": 237,
+      "start_date": "2025-11-29T21:58:07",
+      "end_date": "2025-12-01T20:58:42",
+      "summary": "The conversation primarily discussed solutions and clarifications for a programming problem related to pathfinding in a grid. They also addressed questions about the competition structure, including team selection criteria and qualification levels.",
+      "topics": [
+        "programming problem solution",
+        "competition structure"
+      ]
+    },
+    {
+      "chunk_index": 238,
+      "start_date": "2025-12-01T20:59:06",
+      "end_date": "2025-12-02T00:05:36",
+      "summary": "The conversation primarily discusses the structure and approach for preparing for a coding competition, including how to handle different levels of difficulty in problems and the importance of understanding basic concepts like vectors and maps. It also covers practical steps such as using code snippets and organizing files.",
+      "topics": [
+        "coding competition preparation",
+        "problem difficulty handling",
+        "basic programming concepts",
+        "code organization"
+      ]
+    },
+    {
+      "chunk_index": 239,
+      "start_date": "2025-12-02T00:09:26",
+      "end_date": "2025-12-02T18:59:48",
+      "summary": "The conversation covers various topics including code implementation, input handling, and contest preparation. It also includes discussions about the structure of problems in programming contests.",
+      "topics": [
+        "code implementation",
+        "input handling",
+        "contest preparation",
+        "structure of problems in programming contests"
+      ]
+    },
+    {
+      "chunk_index": 240,
+      "start_date": "2025-12-02T19:15:34",
+      "end_date": "2025-12-05T19:36:16",
+      "summary": "The conversation covers various topics including a coding problem, Q&A sessions about dynamic programming (DP), and the management of contests. It also includes discussions on how to handle participants who need to stop during contest.",
+      "topics": [
+        "coding problem",
+        "dynamic programming",
+        "contest management"
+      ]
+    },
+    {
+      "chunk_index": 241,
+      "start_date": "2025-12-05T19:36:30",
+      "end_date": "2025-12-06T15:52:18",
+      "summary": "The conversation primarily discussed solutions for a programming problem involving counting combinations using Pascal's Law. They also touched on the importance of testing and debugging, as well as the use of multiset to store string values with their counts.",
+      "topics": [
+        "Pascal's Law",
+        "multiset usage",
+        "programming problems"
+      ]
+    },
+    {
+      "chunk_index": 242,
+      "start_date": "2025-12-06T15:52:31",
+      "end_date": "2025-12-08T21:31:34",
+      "summary": "The conversation primarily discusses solving problems, learning about Telegram features, and asking for programming courses. Some participants also share their experiences with the camp.",
+      "topics": [
+        "programming problem-solving",
+        "Telegram account registration process",
+        "learning resources"
+      ]
+    },
+    {
+      "chunk_index": 243,
+      "start_date": "2025-12-08T22:55:39",
+      "end_date": "2025-12-10T21:25:03",
+      "summary": "The conversation covers various topics including problem-solving, learning resources, and competition preparation. It also includes a discussion on the structure of programming competitions and how to handle test cases.",
+      "topics": [
+        "problem solving",
+        "learning resources",
+        "competition preparation",
+        "programming competition structure"
+      ]
+    },
+    {
+      "chunk_index": 244,
+      "start_date": "2025-12-10T21:25:23",
+      "end_date": "2025-12-12T13:39:29",
+      "summary": "The conversation covers the progress of solving problems, brainstorming solutions for a coding challenge, and discussing how to distribute problem sets. It also includes discussions on specific algorithm implementations like Dijkstra's Algorithm.",
+      "topics": [
+        "algorithm implementation",
+        "problem set distribution",
+        "coding challenges"
+      ]
+    },
+    {
+      "chunk_index": 245,
+      "start_date": "2025-12-12T13:39:44",
+      "end_date": "2025-12-13T17:24:10",
+      "summary": "The conversation covers various topics including the progress of participants, strategies for improving performance in competitions, and discussions about upcoming events. It also includes technical issues related to code execution times.",
+      "topics": [
+        "Participant progress",
+        "Competitive improvement strategies",
+        "Upcoming event planning",
+        "Technical issues with code execution"
+      ]
+    },
+    {
+      "chunk_index": 246,
+      "start_date": "2025-12-13T17:24:48",
+      "end_date": "2025-12-14T15:27:36",
+      "summary": "The conversation covers preparations for the ACPC Camp, discussions about media coverage, training plans, and team formation. It also includes jokes and informal exchanges.",
+      "topics": [
+        "ACPC Camp preparations",
+        "media coverage planning",
+        "training sessions",
+        "team formation"
+      ]
+    },
+    {
+      "chunk_index": 247,
+      "start_date": "2025-12-14T15:28:19",
+      "end_date": "2025-12-14T19:39:24",
+      "summary": "The chat discusses the progress of participants in a coding competition, including their participation in problem-solving sessions and plans for future events. They also express excitement about potential team placements and outcomes.",
+      "topics": [
+        "coding competition progress",
+        "problem-solving sessions",
+        "team placements",
+        "future event planning"
+      ]
+    },
+    {
+      "chunk_index": 248,
+      "start_date": "2025-12-14T19:39:37",
+      "end_date": "2025-12-14T21:52:36",
+      "summary": "The discussion revolves around the rules for determining if a number is prime and how to implement an algorithm to check if a given number is prime. The team also discusses the concept of logarithms and its application in solving problems.",
+      "topics": [
+        "Prime numbers",
+        "Algorithm implementation for checking primality",
+        "Logarithm usage"
+      ]
+    },
+    {
+      "chunk_index": 249,
+      "start_date": "2025-12-14T21:52:41",
+      "end_date": "2025-12-15T20:33:55",
+      "summary": "The summary covers the ongoing discussion about coding problems, clarifications on problem statements and solutions, and preparations for upcoming sessions. It also includes a mention of the World Cup competition.",
+      "topics": [
+        "coding problems",
+        "problem statement clarification",
+        "upcoming sessions preparation",
+        "World Cup competition"
+      ]
+    },
+    {
+      "chunk_index": 250,
+      "start_date": "2025-12-15T20:33:57",
+      "end_date": "2025-12-17T01:15:04",
+      "summary": "The conversation primarily focused on solving a problem related to rearranging elements in arrays based on certain conditions. The team discussed and tested different approaches, including swapping elements when the XOR of two elements is greater than another element's value.",
+      "topics": [
+        "array manipulation",
+        "XOR operation",
+        "algorithm optimization"
+      ]
+    },
+    {
+      "chunk_index": 251,
+      "start_date": "2025-12-17T01:57:24",
+      "end_date": "2025-12-20T15:12:04",
+      "summary": "The conversation covers various topics including coding problems, the structure of a 'tuplet' in C++, and troubleshooting issues. Discussions also revolve around solving specific programming challenges.",
+      "topics": [
+        "coding problems",
+        "C++ struct implementation",
+        "tuplet explanation",
+        "problem-solving strategies"
+      ]
+    },
+    {
+      "chunk_index": 252,
+      "start_date": "2025-12-20T15:13:58",
+      "end_date": "2025-12-22T23:28:50",
+      "summary": "The conversation covers various topics including a C++ function implementation, problem-solving in competitive programming, and clarifications on specific problems. Discussions also include advice for participants preparing to join the ACPC Camp.",
+      "topics": [
+        "C++ function implementation",
+        "Problem-solving in competitive programming",
+        "Clarifying specific problems",
+        "Advice for participants"
+      ]
+    },
+    {
+      "chunk_index": 253,
+      "start_date": "2025-12-22T23:29:50",
+      "end_date": "2025-12-23T20:35:07",
+      "summary": "The conversation covers various topics including a coding problem, discussion on the CPC competition levels, and solving a specific programming challenge. Discussions also include clarifications about removing elements from an array and understanding DP solutions.",
+      "topics": [
+        "Coding problem",
+        "CPC competition levels",
+        "Solving a specific programming challenge",
+        "Removing elements from an array",
+        "Understanding Dynamic Programming (DP) solutions"
+      ]
+    },
+    {
+      "chunk_index": 254,
+      "start_date": "2025-12-23T20:35:14",
+      "end_date": "2025-12-24T16:03:53",
+      "summary": "The group discusses a problem related to rearranging students in a row based on gender constraints. They also mention the CTF competition and discuss potential solutions for the given problem.",
+      "topics": [
+        "problem rearrangement",
+        "gender constraints",
+        "CTF competition"
+      ]
+    },
+    {
+      "chunk_index": 255,
+      "start_date": "2025-12-24T16:04:10",
+      "end_date": "2025-12-24T16:57:29",
+      "summary": "The conversation revolves around learning and practicing programming skills, specifically focusing on solving problems and understanding algorithms. Participants discuss various approaches to learning and practice, including taking online courses and working through exercises.",
+      "topics": [
+        "programming skills",
+        "learning methods",
+        "algorithm problem-solving"
+      ]
+    },
+    {
+      "chunk_index": 256,
+      "start_date": "2025-12-24T16:58:09",
+      "end_date": "2025-12-26T00:49:51",
+      "summary": "The conversation primarily discussed the logic and implementation of a problem related to counting occurrences of characters in a string, with some discussions on binary search and lexicographical sorting. The main focus was on improving and simplifying the solution for the character occurrence problem.",
+      "topics": [
+        "character occurrence problem",
+        "binary search",
+        "lexicographical sorting"
+      ]
+    },
+    {
+      "chunk_index": 257,
+      "start_date": "2025-12-26T00:49:57",
+      "end_date": "2025-12-27T01:21:16",
+      "summary": "The conversation covers various topics including code snippets, discussions about problem solving techniques, and questions related to programming challenges. It also includes jokes and updates on the site's progress.",
+      "topics": [
+        "code snippets",
+        "problem solving techniques",
+        "programming challenges",
+        "site updates"
+      ]
+    },
+    {
+      "chunk_index": 258,
+      "start_date": "2025-12-27T01:21:30",
+      "end_date": "2025-12-27T21:56:40",
+      "summary": "The conversation primarily discussed problem-solving techniques for a coding challenge, including number manipulation and string comparison methods. They also touched on the importance of understanding base cases and conditions in dynamic programming (DP) solutions.",
+      "topics": [
+        "Number Manipulation",
+        "String Comparison Methods",
+        "Dynamic Programming (DP)",
+        "Base Cases and Conditions"
+      ]
+    },
+    {
+      "chunk_index": 259,
+      "start_date": "2025-12-27T21:56:56",
+      "end_date": "2025-12-28T22:56:52",
+      "summary": "The conversation covers discussions about the DP (Dynamic Programming) problem, learning C++ programming, and clarifying issues with submission processes on Codeforces. It also includes advice for students interested in game development or artificial intelligence.",
+      "topics": [
+        "DP Problem Clarification",
+        "C++ Learning",
+        "Code Submission Issues on Codeforces",
+        "Career Advice"
+      ]
+    },
+    {
+      "chunk_index": 260,
+      "start_date": "2025-12-28T22:58:50",
+      "end_date": "2026-01-02T04:09:46",
+      "summary": "The conversation covers various topics including a coding problem, STL library explanation, and Q&A session. It also includes discussions about the ACM Camp structure and upcoming competitions like Huawei's.",
+      "topics": [
+        "coding problem",
+        "STL library",
+        "ACM Camp structure",
+        "upcoming competitions"
+      ]
+    },
+    {
+      "chunk_index": 261,
+      "start_date": "2026-01-02T08:37:51",
+      "end_date": "2026-01-05T17:09:46",
+      "summary": "The conversation covers various topics including programming challenges, language learning strategies, and clarifications on specific coding issues. Discussions also touch upon understanding the meaning of certain symbols in code and how to improve performance by optimizing loops.",
+      "topics": [
+        "Programming Challenges",
+        "Language Learning Strategies",
+        "Coding Issues Optimization"
+      ]
+    },
+    {
+      "chunk_index": 262,
+      "start_date": "2026-01-05T17:16:37",
+      "end_date": "2026-01-07T20:57:28",
+      "summary": "The conversation covers various topics including language learning, programming concepts like recursion and dynamic programming (DP), understanding geometric problems in C++, debugging code, and discussing the difficulty of solving complex problems at the beginning. It also includes a discussion about accessing built-in functions and libraries in C++.",
+      "topics": [
+        "language learning",
+        "programming concepts: recursion and DP",
+        "geometric problem in C++",
+        "debugging",
+        "difficulty with complex problems"
+      ]
+    },
+    {
+      "chunk_index": 263,
+      "start_date": "2026-01-07T20:57:41",
+      "end_date": "2026-01-09T03:21:17",
+      "summary": "The conversation discusses various coding-related issues such as handling large numbers, debugging, and formatting input data. It also includes discussions about the camp's structure and expectations.",
+      "topics": [
+        "coding challenges",
+        "debugging techniques",
+        "input formatting",
+        "camp structure"
+      ]
+    },
+    {
+      "chunk_index": 264,
+      "start_date": "2026-01-09T03:21:22",
+      "end_date": "2026-01-10T00:08:11",
+      "summary": "The conversation primarily discussed solutions and explanations for programming problems, including the next round problem, a flowchart explanation, and clarifications on concepts like arrays, maps, sets, vectors, and object-oriented programming (OOP). Discussions also covered how to improve memory management in code.",
+      "topics": [
+        "next round problem",
+        "flowchart explanation",
+        "array, map, set, vector",
+        "object-oriented programming"
+      ]
+    },
+    {
+      "chunk_index": 265,
+      "start_date": "2026-01-10T00:08:31",
+      "end_date": "2026-01-11T10:15:23",
+      "summary": "The conversation covers various topics including programming concepts, debugging issues, and problem-solving techniques. Discussions also include clarifications on the use of libraries and functions in C++.",
+      "topics": [
+        "Programming Concepts",
+        "Debugging Issues",
+        "Problem-Solving Techniques",
+        "C++ Libraries and Functions"
+      ]
+    },
+    {
+      "chunk_index": 266,
+      "start_date": "2026-01-11T10:15:30",
+      "end_date": "2026-01-12T19:41:00",
+      "summary": "The conversation primarily revolves around solving a problem related to army deployment and cost calculation, with some discussions on programming concepts like arrays and loops. The team also discussed university enrollment options for students.",
+      "topics": [
+        "programming problem",
+        "university enrollment",
+        "array manipulation"
+      ]
+    },
+    {
+      "chunk_index": 267,
+      "start_date": "2026-01-12T19:41:10",
+      "end_date": "2026-01-12T20:47:13",
+      "summary": "The conversation primarily discussed clarifying the rules for a contest, specifically regarding how to handle cases where participants did not solve certain problems and how to calculate ranks based on problem-solving performance.",
+      "topics": [
+        "contest rules",
+        "problem solving",
+        "rank calculation"
+      ]
+    },
+    {
+      "chunk_index": 268,
+      "start_date": "2026-01-12T20:49:52",
+      "end_date": "2026-01-13T19:31:45",
+      "summary": "The conversation primarily focused on solving a programming problem related to counting the maximum value of elements in a sequence after applying certain operations. Discussions included clarifying the logic and understanding of the problem, as well as providing solutions and debugging code.",
+      "topics": [
+        "programming problem",
+        "sequence manipulation",
+        "debugging"
+      ]
+    },
+    {
+      "chunk_index": 269,
+      "start_date": "2026-01-13T19:31:50",
+      "end_date": "2026-01-18T20:27:04",
+      "summary": "The conversation covered various coding problems including a Java solution for replacing substrings, discussions on string manipulation in different languages (C++, Java), and the calculation of the longest sequence with specific conditions. The group also discussed the concept of queue lengths and solved related problems.",
+      "topics": [
+        "Java code review",
+        "String manipulation in C++ and Java",
+        "Longest increasing subsequence problem",
+        "Queue length calculations"
+      ]
+    },
+    {
+      "chunk_index": 270,
+      "start_date": "2026-01-18T20:27:11",
+      "end_date": "2026-01-19T22:56:28",
+      "summary": "The discussion revolves around solving a problem related to finding the minimum number of moves required to reach all points within a given range. The team discusses various approaches and optimizations, including using binary search for sorting and searching problems.",
+      "topics": [
+        "binary search",
+        "sorting and searching",
+        "problem optimization"
+      ]
+    },
+    {
+      "chunk_index": 271,
+      "start_date": "2026-01-19T22:56:34",
+      "end_date": "2026-01-20T00:00:49",
+      "summary": "The conversation discusses solutions for a problem involving multi-set and range queries, with participants providing clarifications and suggestions on how to implement the solution efficiently.",
+      "topics": [
+        "multi-set implementation",
+        "range query optimization",
+        "solution validation"
+      ]
+    },
+    {
+      "chunk_index": 272,
+      "start_date": "2026-01-20T00:00:55",
+      "end_date": "2026-01-22T19:38:44",
+      "summary": "The conversation covers various aspects of a programming problem, including the calculation of sums for even and odd numbers within a given range. It also discusses future plans and upcoming challenges in the training camp.",
+      "topics": [
+        "programming problem",
+        "future plans",
+        "upcoming challenges"
+      ]
+    },
+    {
+      "chunk_index": 273,
+      "start_date": "2026-01-22T19:38:56",
+      "end_date": "2026-01-24T21:42:25",
+      "summary": "The conversation covers various topics including coding problems, discussions on problem-solving techniques, and clarifications about certain mathematical functions. It also includes a discussion on the importance of geometry in competitions versus other areas.",
+      "topics": [
+        "coding problems",
+        "problem-solving techniques",
+        "mathematical functions",
+        "geometry in competitions"
+      ]
+    },
+    {
+      "chunk_index": 274,
+      "start_date": "2026-01-24T21:42:32",
+      "end_date": "2026-01-26T10:06:54",
+      "summary": "The conversation covers various topics including account management, coding challenges, and participant feedback. It also includes discussions about the structure of a specific problem (c1) and solutions to code-related issues.",
+      "topics": [
+        "account management",
+        "coding challenges",
+        "participant feedback",
+        "problem structure discussion",
+        "code-related issues"
+      ]
+    },
+    {
+      "chunk_index": 275,
+      "start_date": "2026-01-27T00:47:42",
+      "end_date": "2026-01-29T16:13:27",
+      "summary": "The conversation covers various topics including a C++ code review, discussion on problem-solving strategies for competitive programming, and questions about the ACM-ICPC camp schedule. It also includes discussions on language preferences for competitions like Codeforces.",
+      "topics": [
+        "C++ code review",
+        "Problem-solving strategies in competitive programming",
+        "ACM-ICPC camp schedule",
+        "Language preferences for coding competitions"
+      ]
+    },
+    {
+      "chunk_index": 276,
+      "start_date": "2026-01-29T16:13:49",
+      "end_date": "2026-01-29T22:35:00",
+      "summary": "The conversation discusses the pros and cons of completing Abu Hdehod courses versus participating in coding competitions, with participants expressing concerns about balancing university studies and competition commitments.",
+      "topics": [
+        "coding competitions",
+        "Abu Hdehod courses",
+        "university vs. competition study"
+      ]
+    },
+    {
+      "chunk_index": 277,
+      "start_date": "2026-01-29T22:35:25",
+      "end_date": "2026-01-30T23:05:41",
+      "summary": "Discussion about the upcoming ACM-ICPC competition, including details on how to register and practice problems. Also addressed was a question regarding project work involving k-means algorithm.",
+      "topics": [
+        "ACM-ICPC competition registration",
+        "practice problems for programming competitions",
+        "k-means algorithm in projects"
+      ]
+    },
+    {
+      "chunk_index": 278,
+      "start_date": "2026-01-30T23:29:52",
+      "end_date": "2026-02-04T10:15:46",
+      "summary": "The conversation covers the details of SOI (Syria Olympiad in Informatics) contest, including its format and schedule. It also discusses the importance of understanding the problem statement and constraints for solving problems efficiently within the given time limits.",
+      "topics": [
+        "SOI contest",
+        "problem-solving efficiency",
+        "contest format"
+      ]
+    },
+    {
+      "chunk_index": 279,
+      "start_date": "2026-02-04T12:21:51",
+      "end_date": "2026-02-06T11:18:46",
+      "summary": "The conversation discusses various topics including programming challenges, educational courses, and the use of AI. It also covers a discussion about whether to delete messages related to specific subjects to avoid confusion.",
+      "topics": [
+        "programming challenges",
+        "educational courses",
+        "AI applications",
+        "message deletion policy"
+      ]
+    },
+    {
+      "chunk_index": 280,
+      "start_date": "2026-02-06T11:18:50",
+      "end_date": "2026-02-06T11:42:49",
+      "summary": "The group discusses the number of participants for the competition, the importance of participation in competitions, and potential solutions to encourage more students to participate. They also touch on the role of universities in the competition and the impact of university attendance on their studies.",
+      "topics": [
+        "number of participants",
+        "competition participation",
+        "university involvement",
+        "study impact"
+      ]
+    },
+    {
+      "chunk_index": 281,
+      "start_date": "2026-02-06T11:43:10",
+      "end_date": "2026-02-08T17:44:45",
+      "summary": "The conversation covers various topics including academic preparation, participation in competitions like the IEEExtreme and Dara competition, and discussions about studying methods. It also includes a discussion on how to prepare for the upcoming Ramadan month with a specific competition.",
+      "topics": [
+        "academic preparation",
+        "participation in competitions",
+        "study methods",
+        "preparation for Ramadan"
+      ]
+    },
+    {
+      "chunk_index": 282,
+      "start_date": "2026-02-08T17:45:00",
+      "end_date": "2026-02-10T10:56:40",
+      "summary": "The conversation covers various topics including IEEE membership, Codeforces and Polygon website downtime, a coding problem, and the structure of IEEE. Abdulqader Qassab discusses issues with the compiler and provides solutions to problems related to string manipulation.",
+      "topics": [
+        "IEEE membership",
+        "Codeforces and Polygon website downtime",
+        "Coding problem solution",
+        "Structure of IEEE"
+      ]
+    },
+    {
+      "chunk_index": 283,
+      "start_date": "2026-02-10T10:59:12",
+      "end_date": "2026-02-12T08:09:23",
+      "summary": "The conversation covers various topics including contest problems, algorithmic solutions, and clarifications on specific questions. It also includes discussions about the submission process and debugging issues.",
+      "topics": [
+        "Contest problem solving",
+        "Algorithmic challenges (DFS, BFS)",
+        "Debugging and optimization of code",
+        "Clarification on test cases and constraints"
+      ]
+    },
+    {
+      "chunk_index": 284,
+      "start_date": "2026-02-12T08:13:04",
+      "end_date": "2026-02-12T23:16:52",
+      "summary": "The conversation primarily discusses issues related to algorithmic problems, specifically a string matching problem and the constraints of the input size. Discussions also touch on debugging techniques and team collaboration during the ACM-ICPC camp.",
+      "topics": [
+        "algorithmic problems",
+        "string matching",
+        "input size constraints",
+        "debugging techniques",
+        "team collaboration"
+      ]
+    },
+    {
+      "chunk_index": 285,
+      "start_date": "2026-02-12T23:17:05",
+      "end_date": "2026-02-14T14:56:58",
+      "summary": "The conversation covers various topics including the ACPC Camp 2026, skill issues in problem solving, and Ramadan preparations. Discussions also touch on team management for upcoming competitions and solutions to programming problems.",
+      "topics": [
+        "ACPC Camp 2026",
+        "Skill Issues in Problem Solving",
+        "Ramadan Preparations",
+        "Team Management for Upcoming Competitions",
+        "Solutions to Programming Problems"
+      ]
+    },
+    {
+      "chunk_index": 286,
+      "start_date": "2026-02-14T14:57:13",
+      "end_date": "2026-02-17T15:38:51",
+      "summary": "The conversation covers various topics including code debugging, AI usage in programming, understanding of constraints and conditions in problems, and learning from others' solutions. It also includes discussions on the importance of reading problem statements carefully and practicing regularly.",
+      "topics": [
+        "code debugging",
+        "AI usage",
+        "problem constraints",
+        "learning from others",
+        "reading problem statements"
+      ]
+    },
+    {
+      "chunk_index": 287,
+      "start_date": "2026-02-17T15:41:31",
+      "end_date": "2026-02-20T19:16:12",
+      "summary": "The conversation covers various topics including code submissions, explanations of problem solving concepts, and clarifications on coding challenges. It also includes discussions about participating in programming competitions like ICPC and Codeforces.",
+      "topics": [
+        "Code submissions",
+        "Problem solving concepts",
+        "ICPC and Codeforces participation",
+        "Coding challenges"
+      ]
+    },
+    {
+      "chunk_index": 288,
+      "start_date": "2026-02-20T19:18:24",
+      "end_date": "2026-02-22T01:33:46",
+      "summary": "The conversation discusses solving a problem related to finding the closest larger number in a sorted array of different numbers. They also touch on time complexity and set usage.",
+      "topics": [
+        "problem-solving",
+        "array manipulation",
+        "time complexity",
+        "set"
+      ]
+    },
+    {
+      "chunk_index": 289,
+      "start_date": "2026-02-22T01:33:51",
+      "end_date": "2026-02-24T03:41:41",
+      "summary": "The conversation covers various topics including sorting, binary search tree (BST) initialization, and runtime errors. Participants discuss the importance of understanding time complexity and how to apply it in their code.",
+      "topics": [
+        "Sorting algorithms",
+        "Binary Search Tree initialization",
+        "Runtime error troubleshooting"
+      ]
+    },
+    {
+      "chunk_index": 290,
+      "start_date": "2026-02-24T03:42:04",
+      "end_date": "2026-03-02T23:44:22",
+      "summary": "The conversation covers various topics including a coding problem, clarifications on game strategies, and discussions about the upcoming training camp. The main focus is on understanding the logic behind shifting sequences of zeros and ones in strings.",
+      "topics": [
+        "Coding Problem Clarification",
+        "Game Strategy Clarification",
+        "Upcoming Training Camp Discussions"
+      ]
+    },
+    {
+      "chunk_index": 291,
+      "start_date": "2026-03-02T23:44:50",
+      "end_date": "2026-03-06T17:18:51",
+      "summary": "The conversation covered various aspects of a programming competition, including the rules for scoring different problem levels (e.g., 800 vs. 900), handling input and output in code, and solving specific problems like finding numbers that are either the smallest or largest within a range with constraints.",
+      "topics": [
+        "Programming Competition Rules",
+        "Input/Output Handling",
+        "Solving Specific Problems"
+      ]
+    },
+    {
+      "chunk_index": 292,
+      "start_date": "2026-03-06T17:25:18",
+      "end_date": "2026-03-11T08:18:44",
+      "summary": "The conversation discusses solutions for a programming problem, with participants sharing their code and discussing the best approach to solve it efficiently. The group also addresses concerns about balancing learning new concepts with solving contest problems.",
+      "topics": [
+        "programming problem solution",
+        "code review",
+        "contest preparation strategies"
+      ]
+    },
+    {
+      "chunk_index": 293,
+      "start_date": "2026-03-11T11:56:28",
+      "end_date": "2026-03-14T00:56:32",
+      "summary": "The conversation covers various topics including Codeforces problem solving, understanding the Petya and Strings problem, and discussing how to register for a competition. There's also an introduction to a coding camp.",
+      "topics": [
+        "Codeforces problem solving",
+        "Petya and Strings problem",
+        "Competition registration",
+        "Coding Camp"
+      ]
+    },
+    {
+      "chunk_index": 294,
+      "start_date": "2026-03-14T01:01:01",
+      "end_date": "2026-03-15T03:04:27",
+      "summary": "The conversation revolves around solving a programming problem related to cutting ribbons into lengths of a, b, or c such that the number of pieces is maximized. Abdulrahman Mairi discusses various approaches and solutions with his peers including trying different combinations and understanding constraints.",
+      "topics": [
+        "programming problem",
+        "cutting ribbons",
+        "maximizing pieces",
+        "constraints"
+      ]
+    },
+    {
+      "chunk_index": 295,
+      "start_date": "2026-03-15T03:31:02",
+      "end_date": "2026-03-19T15:59:09",
+      "summary": "The conversation covers various topics including the upcoming Codeforces contest, problem-solving skills, and clarifications on programming competitions. Discussions also include logistical details about the training camps and how to participate in them.",
+      "topics": [
+        "Codeforces contest",
+        "problem-solving skills",
+        "programming competitions participation",
+        "training camps logistics"
+      ]
+    },
+    {
+      "chunk_index": 296,
+      "start_date": "2026-03-19T16:03:56",
+      "end_date": "2026-03-22T00:15:21",
+      "summary": "The conversation discusses various aspects of a programming problem, including the need to find two numbers in an array that sum up to a given value and how to handle input/output operations for interactive problems. They also discuss optimization strategies like using binary search or dynamic programming.",
+      "topics": [
+        "Finding two numbers in an array",
+        "Input/Output Operations for Interactive Problems",
+        "Optimization Strategies"
+      ]
+    },
+    {
+      "chunk_index": 297,
+      "start_date": "2026-03-22T00:21:22",
+      "end_date": "2026-03-22T20:28:33",
+      "summary": "The conversation discusses solutions for a programming problem, including code corrections and optimizations. They also discuss the scoring system for competitions, where participants are penalized if they exceed the allotted time limit.",
+      "topics": [
+        "programming problem solution",
+        "competition scoring system"
+      ]
+    },
+    {
+      "chunk_index": 298,
+      "start_date": "2026-03-22T20:44:07",
+      "end_date": "2026-03-24T19:16:38",
+      "summary": "The conversation covers various problems including a special problem, binary logarithm usage, and string reversal. Solutions are discussed for handling large numbers and optimizing code efficiency.",
+      "topics": [
+        "special problem",
+        "binary logarithm",
+        "string manipulation"
+      ]
+    },
+    {
+      "chunk_index": 299,
+      "start_date": "2026-03-24T19:16:48",
+      "end_date": "2026-03-25T23:14:07",
+      "summary": "The conversation covers various topics including coding challenges, process improvements, and clarifications on problem statements. Discussions also touch upon the importance of asking for help when stuck and the need to understand test cases thoroughly.",
+      "topics": [
+        "coding challenges",
+        "process improvements",
+        "clarifying problem statements",
+        "asking for help",
+        "understanding test cases"
+      ]
+    },
+    {
+      "chunk_index": 300,
+      "start_date": "2026-03-25T23:16:57",
+      "end_date": "2026-03-26T23:10:27",
+      "summary": "The conversation covers various topics including the format of the programming competition, prerequisites for participation, and resources available. It also includes discussions about specific problems and solutions.",
+      "topics": [
+        "Programming competition format",
+        "Prerequisites for participation",
+        "Resources for learning C++",
+        "Specific problem solving"
+      ]
+    },
+    {
+      "chunk_index": 301,
+      "start_date": "2026-03-26T23:16:33",
+      "end_date": "2026-03-27T18:33:52",
+      "summary": "The conversation covers various topics including codeforces account registration, understanding of the competition structure, and a snippet of C++ code. There are discussions about prerequisites for different levels of participation in the competition.",
+      "topics": [
+        "codeforces account registration",
+        "competition structure and participant levels",
+        "C++ code snippets"
+      ]
+    }
+  ],
+  "model": "qwen2.5:3b"
+}
