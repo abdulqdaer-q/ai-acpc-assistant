@@ -18,6 +18,8 @@ class OpenAIResponsesClient:
     def generate(self, system_prompt: str, prompt: str) -> str:
         payload = {
             "model": self.settings.openai_model,
+            "temperature": self.settings.bot_config.llm.temperature,
+            "max_output_tokens": self.settings.bot_config.llm.openai_max_output_tokens,
             "input": [
                 {
                     "role": "system",
@@ -81,7 +83,8 @@ class GeminiClient:
                 }
             ],
             "generationConfig": {
-                "temperature": 0.2,
+                "temperature": self.settings.bot_config.llm.temperature,
+                "maxOutputTokens": self.settings.bot_config.llm.gemini_max_output_tokens,
             },
         }
 
@@ -129,8 +132,8 @@ class OllamaClient:
             "prompt": prompt,
             "stream": False,
             "options": {
-                "temperature": 0.2,
-                "num_ctx": self.settings.ollama_num_ctx,
+                "temperature": self.settings.bot_config.llm.temperature,
+                "num_ctx": self.settings.bot_config.llm.ollama_num_ctx,
             },
         }
 

@@ -1,7 +1,7 @@
 from .config import Settings
 from .knowledge import KnowledgeBase
 from .llm import LLMClient
-from .prompts import MASTER_PROMPT, build_user_prompt
+from .prompts import build_user_prompt
 from .state import ConversationStateStore
 
 
@@ -25,15 +25,17 @@ class MentorService:
             history_text = self.state_store.render_history(chat_id)
             retrieved_chunks = self.knowledge_base.search(
                 query=question,
-                limit=self.settings.max_retrieved_chunks,
+                limit=self.settings.bot_config.retrieval.max_chunks,
             )
             prompt = build_user_prompt(
                 question=question,
                 conversation_history=history_text,
                 final_memory=self.knowledge_base.final_memory,
                 retrieved_chunks=retrieved_chunks,
+                prompt_config=self.settings.bot_config.prompts,
+                retrieval_config=self.settings.bot_config.retrieval,
             )
-            answer = self.llm_client.generate(MASTER_PROMPT, prompt)
+            answer = self.llm_client.generate(self.settings.bot_config.prompts.system, prompt)
         except Exception as error:
             answer = self._format_error_message(error)
 
@@ -45,17 +47,14 @@ class MentorService:
 
     def status_text(self) -> str:
         return (
+            f"Bot: {self.settings.bot_config.metadata.name} v{self.settings.bot_config.metadata.version}\n"
             f"Provider: {self.settings.resolved_provider()}\n"
             f"Model: {self.settings.resolved_model()}\n"
+            f"Bot config: {self.settings.bot_config_file.name}\n"
             f"Knowledge files: {self.settings.final_memory_file.name}, "
             f"{self.settings.chunk_summaries_file.name}\n"
             f"Loaded chunks: {len(self.knowledge_base.chunks)}"
         )
 
-    @staticmethod
-    def _format_error_message(error: Exception) -> str:
-        return (
-            "I could not generate a mentor response right now.\n"
-            f"Reason: {error}\n"
-            "Check the selected LLM provider, credentials, and knowledge files."
-        )
+    def _format_error_message(self, error: Exception) -> str:
+        return self.settings.bot_config.prompts.error_message.format(error=error)

@@ -2,6 +2,8 @@ import os
 from dataclasses import dataclass
 from pathlib import Path
 
+from .bot_config import BotConfig
+
 
 def _env_int(name: str, default: int) -> int:
     value = os.getenv(name)
@@ -12,6 +14,8 @@ def _env_int(name: str, default: int) -> int:
 
 @dataclass(frozen=True)
 class Settings:
+    bot_config_file: Path
+    bot_config: BotConfig
     telegram_bot_token: str
     telegram_api_id: int
     telegram_api_hash: str
@@ -28,15 +32,16 @@ class Settings:
     chunk_summaries_file: Path
     state_file: Path
     max_history_messages: int
-    max_retrieved_chunks: int
     llm_timeout_seconds: int
-    ollama_num_ctx: int
     request_timeout_seconds: int
     telegram_send_limit: int
 
     @classmethod
     def from_env(cls) -> "Settings":
+        bot_config_file = Path(os.getenv("BOT_CONFIG_FILE", "bot_config.json"))
         return cls(
+            bot_config_file=bot_config_file,
+            bot_config=BotConfig.load(bot_config_file),
             telegram_bot_token=os.getenv("TELEGRAM_BOT_TOKEN", "").strip(),
             telegram_api_id=_env_int("TELEGRAM_API_ID", 0),
             telegram_api_hash=os.getenv("TELEGRAM_API_HASH", "").strip(),
@@ -53,9 +58,7 @@ class Settings:
             chunk_summaries_file=Path(os.getenv("CHUNK_SUMMARIES_FILE", "chunk_summaries.json")),
             state_file=Path(os.getenv("BOT_STATE_FILE", "telegram_bot_state.json")),
             max_history_messages=_env_int("MAX_HISTORY_MESSAGES", 8),
-            max_retrieved_chunks=_env_int("MAX_RETRIEVED_CHUNKS", 5),
             llm_timeout_seconds=_env_int("LLM_TIMEOUT_SECONDS", 180),
-            ollama_num_ctx=_env_int("BOT_OLLAMA_NUM_CTX", 8192),
             request_timeout_seconds=_env_int("REQUEST_TIMEOUT_SECONDS", 60),
             telegram_send_limit=_env_int("TELEGRAM_SEND_LIMIT", 3900),
         )
@@ -78,6 +81,8 @@ class Settings:
         return self.ollama_model
 
     def validate(self) -> None:
+        if not self.bot_config_file.exists():
+            raise FileNotFoundError(f"Missing {self.bot_config_file}")
         if not self.telegram_bot_token:
             raise RuntimeError("TELEGRAM_BOT_TOKEN is not set.")
         if not self.telegram_api_id:
