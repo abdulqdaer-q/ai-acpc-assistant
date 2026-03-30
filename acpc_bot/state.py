@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 from threading import RLock
+import tempfile
 from typing import Any
 
 from .text_utils import truncate_text
@@ -30,7 +31,17 @@ class ConversationStateStore:
         return data
 
     def _save_locked(self) -> None:
-        self.path.write_text(json.dumps(self._state, ensure_ascii=False, indent=2), encoding="utf-8")
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        payload = json.dumps(self._state, ensure_ascii=False, indent=2)
+        with tempfile.NamedTemporaryFile(
+            "w",
+            encoding="utf-8",
+            dir=self.path.parent,
+            delete=False,
+        ) as file:
+            file.write(payload)
+            temp_path = Path(file.name)
+        temp_path.replace(self.path)
 
     def append_message(self, chat_id: int, role: str, content: str) -> None:
         with self._lock:

@@ -5,21 +5,27 @@ ACPC mentor bot for Telegram.
 It answers programming-contest questions using:
 - extracted ACPC camp knowledge from `chunk_summaries.json`
 - global camp memory from `final_memory.json`
+- optional curated external knowledge from `knowledge_sources/documents.jsonl`
 - a configurable mentorship prompt in `bot_config.json`
 - a pluggable LLM backend: OpenAI, Gemini, or Ollama
 
 ## What It Does
 
 - runs as a Telegram bot using Pyrogram
-- retrieves relevant camp-memory chunks for each question
+- retrieves relevant knowledge documents for each question
 - follows a no-spoiler mentorship style instead of dumping code immediately
 - reviews pasted code and asks follow-up questions
 - keeps short per-chat memory in `telegram_bot_state.json`
 - lets you tweak prompt text, retrieval limits, and generation settings without editing Python code
+- asks for the full statement or code when the question is too underspecified to answer reliably
+
+## Extra Docs
+
+- beginner camp guide grounded in extracted memory: `BEGINNER_GUIDE.md`
 
 ## Architecture
 
-- entrypoint: [telegram_bot.py](/Users/aqassab/personal/ai-acpc-assistant/telegram_bot.py)
+- entrypoint: `telegram_bot.py`
 - runtime bootstrap: `acpc_bot/runner.py`
 - Telegram app and handlers: `acpc_bot/app.py`
 - config loading: `acpc_bot/config.py`
@@ -36,6 +42,7 @@ Tracked:
 - `bot_config.json`
 - `chunk_summaries.json`
 - `final_memory.json`
+- `knowledge_sources/documents.example.jsonl`
 
 Ignored:
 - raw private export `telegram_chat.json`
@@ -45,6 +52,23 @@ Ignored:
 - local bot memory `telegram_bot_state.json`
 
 The deployment assumption is that derived knowledge files are safe to ship, while the raw chat export is not.
+
+## Retrieval Model
+
+The bot uses a document-first retrieval layer instead of a single flat context blob.
+
+Loaded knowledge sources:
+- `final_memory.json` as a camp-overview document
+- `chunk_summaries.json` as ACPC chunk documents
+- `knowledge_sources/documents.jsonl` as optional curated external documents
+
+Each document carries:
+- `source` and `doc_type`
+- short summary, topics, highlights, and open questions
+- optional `problem_id` and `url`
+- source-weighted ranking config from `bot_config.json`
+
+This is the current RAG shape. It is intentionally curated and lightweight, not a full vector DB or broad web scrape.
 
 ## Configuration
 
@@ -67,6 +91,7 @@ Required Telegram values:
 TELEGRAM_BOT_TOKEN=...
 TELEGRAM_API_ID=...
 TELEGRAM_API_HASH=...
+KNOWLEDGE_SOURCES_FILE=knowledge_sources/documents.jsonl
 ```
 
 Select one LLM provider:
@@ -101,9 +126,10 @@ It contains:
 - `metadata`: bot name, version, description, owner
 - `prompts.system`: the full mentor system prompt
 - `prompts.labels`: section labels used in the assembled user prompt
+- `prompts.insufficient_context_message`: the fallback when the user question is too vague
 - `prompts.response_requirements`: output rules passed to the model
 - `prompts.error_message`: runtime fallback message
-- `retrieval`: how many chunks/highlights/open questions are injected
+- `retrieval`: how many documents/highlights/open questions are injected plus source weights and prompt budgets
 - `llm`: generation tuning like `temperature`, output-token caps, and Ollama context size
 
 Example:
@@ -122,7 +148,7 @@ Example:
     ]
   },
   "retrieval": {
-    "max_chunks": 5
+    "max_documents": 5
   },
   "llm": {
     "temperature": 0.2
@@ -174,11 +200,14 @@ Supported commands:
 - The bot stores its Telegram session in `.pyrogram/`.
 - The bot stores short conversational memory in `telegram_bot_state.json`.
 - For production, provide `.env`, keep `bot_config.json`, `chunk_summaries.json`, and `final_memory.json` next to the app.
+- If you want extra RAG context, deploy `knowledge_sources/documents.jsonl` too.
+- Keep `knowledge_sources/documents.example.jsonl` as a schema reference, not as production knowledge.
 
 ## Development Notes
 
 - Python code should stay simple and explicit.
 - Prompt behavior should be changed in `bot_config.json`, not hardcoded in Python.
+- Curated external knowledge should be added as JSONL documents, not pasted into Python strings.
 - Secrets must stay in `.env`, never in tracked source files.
 
 ## Verification

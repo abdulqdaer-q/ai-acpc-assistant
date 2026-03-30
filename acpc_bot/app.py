@@ -19,7 +19,7 @@ from .text_utils import split_long_message
 
 
 COMMAND_NAMES = ("start", "help", "status", "reset", "ask")
-NON_COMMAND_TEXT_FILTER = filters.text & ~filters.command(list(COMMAND_NAMES))
+NON_COMMAND_TEXT_FILTER = (filters.text | filters.caption) & ~filters.command(list(COMMAND_NAMES))
 
 
 @dataclass(frozen=True)
@@ -56,6 +56,7 @@ class AcpcMentorBotApp:
         self.settings = settings
         self.mentor_service = mentor_service
         self.bot_username = ""
+        self._chat_locks: dict[int, asyncio.Lock] = {}
         self.client = Client(
             name=self.settings.telegram_session_name,
             api_id=self.settings.telegram_api_id,
@@ -84,9 +85,9 @@ class AcpcMentorBotApp:
         await self._reply(
             message,
             (
-                "ACPC mentor bot is ready.\n"
-                "Send a problem question, a failing idea, or your C++ code.\n"
-                "In groups, use /ask <question>, mention the bot, or reply to one of its messages."
+                "أهلين، أنا العم شعبان.\n"
+                "جاهز أساعدك بسؤال مسألة، أو فكرة ما زبطت معك، أو كود ++C بدك نراجعه سوا.\n"
+                "في المجموعات استخدم /ask <question> أو اعمل منشن للبوت أو رد على إحدى رسائله."
             ),
         )
 
@@ -95,12 +96,12 @@ class AcpcMentorBotApp:
         await self._reply(
             message,
             (
-                "Usage:\n"
-                "- Ask about a problem, constraint, edge case, or algorithm choice.\n"
-                "- Paste code for review.\n"
-                "- /ask <question> works well in groups.\n"
-                "- /status shows the current provider and loaded knowledge.\n"
-                "- /reset clears this chat's short memory."
+                "طريقة الاستخدام:\n"
+                "- اسأل عن مسألة، أو القيود، أو الحالات الطرفية، أو اختيار الخوارزمية.\n"
+                "- أرسل الكود إذا كنت تريد مراجعته.\n"
+                "- الأمر /ask <question> مناسب داخل المجموعات.\n"
+                "- الأمر /status يعرض المزود الحالي والمعرفة المحمّلة.\n"
+                "- الأمر /reset يمسح الذاكرة القصيرة لهذه المحادثة."
             ),
         )
 
@@ -111,13 +112,13 @@ class AcpcMentorBotApp:
     @command_route("reset")
     async def _handle_reset(self, _client: Client, message: Message) -> None:
         self.mentor_service.reset_history(message.chat.id)
-        await self._reply(message, "Short-term conversation memory cleared.")
+        await self._reply(message, "تم مسح الذاكرة القصيرة لهذه المحادثة.")
 
     @command_route("ask")
     async def _handle_ask(self, client: Client, message: Message) -> None:
-        question = self._extract_command_argument(message.text or "", "ask")
+        question = self._extract_command_argument(self._message_text(message), "ask")
         if not question:
-            await self._reply(message, "Use /ask followed by your question.")
+            await self._reply(message, "استخدم /ask ثم اكتب سؤالك بعده.")
             return
         await self._answer_message(client, message, question)
 
@@ -130,15 +131,16 @@ class AcpcMentorBotApp:
 
     @with_typing_action
     async def _answer_message(self, client: Client, message: Message, question: str) -> None:
-        answer = await asyncio.to_thread(
-            self.mentor_service.answer_question,
-            message.chat.id,
-            question,
-        )
+        async with self._chat_lock(message.chat.id):
+            answer = await asyncio.to_thread(
+                self.mentor_service.answer_question,
+                message.chat.id,
+                question,
+            )
         await self._reply(message, answer)
 
     def _extract_question(self, message: Message) -> str:
-        text = (message.text or "").strip()
+        text = self._message_text(message).strip()
         if not text:
             return ""
 
@@ -159,6 +161,17 @@ class AcpcMentorBotApp:
         return ""
 
     @staticmethod
+    def _message_text(message: Message) -> str:
+        return (message.text or message.caption or "").strip()
+
+    def _chat_lock(self, chat_id: int) -> asyncio.Lock:
+        lock = self._chat_locks.get(chat_id)
+        if lock is None:
+            lock = asyncio.Lock()
+            self._chat_locks[chat_id] = lock
+        return lock
+
+    @staticmethod
     def _extract_command_argument(text: str, command: str) -> str:
         match = re.match(rf"^/{command}(?:@\w+)?\s+(.*)$", text.strip(), flags=re.IGNORECASE | re.DOTALL)
         if not match:
@@ -174,10 +187,10 @@ class AcpcMentorBotApp:
         me = await self.client.get_me()
         self.bot_username = (me.username or "").lower()
 
-        print(f"Bot username: @{self.bot_username}")
-        print(f"Provider: {self.settings.resolved_provider()}")
-        print(f"Model: {self.settings.resolved_model()}")
-        print(f"Knowledge chunks loaded: {len(self.mentor_service.knowledge_base.chunks)}")
+        print(f"اسم المستخدم للبوت: @{self.bot_username}")
+        print(f"المزوّد: {self.settings.resolved_provider()}")
+        print(f"النموذج: {self.settings.resolved_model()}")
+        print(f"عدد وثائق المعرفة المحمّلة: {len(self.mentor_service.knowledge_base.documents)}")
 
         try:
             await idle()

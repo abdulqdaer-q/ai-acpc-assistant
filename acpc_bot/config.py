@@ -30,6 +30,7 @@ class Settings:
     ollama_model: str
     final_memory_file: Path
     chunk_summaries_file: Path
+    external_documents_file: Path
     state_file: Path
     max_history_messages: int
     llm_timeout_seconds: int
@@ -56,6 +57,7 @@ class Settings:
             ollama_model=os.getenv("OLLAMA_MODEL", "qwen2.5:3b").strip(),
             final_memory_file=Path(os.getenv("FINAL_MEMORY_FILE", "final_memory.json")),
             chunk_summaries_file=Path(os.getenv("CHUNK_SUMMARIES_FILE", "chunk_summaries.json")),
+            external_documents_file=Path(os.getenv("KNOWLEDGE_SOURCES_FILE", "knowledge_sources/documents.jsonl")),
             state_file=Path(os.getenv("BOT_STATE_FILE", "telegram_bot_state.json")),
             max_history_messages=_env_int("MAX_HISTORY_MESSAGES", 8),
             llm_timeout_seconds=_env_int("LLM_TIMEOUT_SECONDS", 180),
@@ -99,6 +101,23 @@ class Settings:
             raise RuntimeError("LLM_PROVIDER=openai requires OPENAI_API_KEY.")
         if provider == "gemini" and not self.gemini_api_key:
             raise RuntimeError("LLM_PROVIDER=gemini requires GEMINI_API_KEY.")
+
+        if self.max_history_messages <= 0:
+            raise RuntimeError("MAX_HISTORY_MESSAGES must be > 0.")
+        if self.telegram_send_limit <= 0:
+            raise RuntimeError("TELEGRAM_SEND_LIMIT must be > 0.")
+        if self.bot_config.retrieval.max_documents <= 0:
+            raise RuntimeError("bot_config.retrieval.max_documents must be > 0.")
+        if self.bot_config.retrieval.max_prompt_chars <= 0:
+            raise RuntimeError("bot_config.retrieval.max_prompt_chars must be > 0.")
+        if self.bot_config.llm.max_retries <= 0:
+            raise RuntimeError("bot_config.llm.max_retries must be > 0.")
+        if self.bot_config.llm.retry_backoff_seconds < 0:
+            raise RuntimeError("bot_config.llm.retry_backoff_seconds must be >= 0.")
+        if self.request_timeout_seconds <= 0:
+            raise RuntimeError("REQUEST_TIMEOUT_SECONDS must be > 0.")
+        if self.llm_timeout_seconds <= 0:
+            raise RuntimeError("LLM_TIMEOUT_SECONDS must be > 0.")
 
         self.telegram_workdir.mkdir(parents=True, exist_ok=True)
         self.state_file.parent.mkdir(parents=True, exist_ok=True)
